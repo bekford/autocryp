@@ -1,0 +1,37 @@
+.banner {
+    display: flex;
+    justify-content: center;
+    padding: 229px 0 0 131px;
+    background: #313A5A;
+    &__nav {
+        display: flex;
+        flex-direction: column;
+    }
+    &__nav-title {
+        font-family: Rubik;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 48px;
+        line-height: 57px;
+        color: #FFFFFF;
+    }
+    &__nav-description {
+        margin: 40px 756px 35px 0;
+        font-family: Rubik;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 32px;
+        color: #FFFFFF;
+    }
+    &__banner__nav-get-started {
+        padding: 20px 47.5px 19px 46.5px;
+       
+        
+    }
+    &__smartphone {
+        position: absolute;
+        
+    }
+    
+}

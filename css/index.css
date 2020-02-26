@@ -51,14 +51,51 @@ body {
   color: white;
 }
 
-.button {
+.header__register {
+  border-radius: 5px 0px;
+}
+
+.banner {
+  display: flex;
+  justify-content: center;
+  padding: 229px 132px 0 131px;
+  background: #313A5A;
+}
+.banner__nav {
+  display: flex;
+  flex-direction: column;
+}
+.banner__nav-title {
+  font-family: Rubik;
   font-style: normal;
   font-weight: bold;
+  font-size: 48px;
+  line-height: 57px;
+  color: #FFFFFF;
+}
+.banner__nav-description {
+  margin: 40px 756px 35px 0;
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 32px;
+  color: #FFFFFF;
+}
+.banner__banner__nav-get-started {
+  padding: 20px 47.5px 19px 46.5px;
+}
+.banner__smartphone {
+  position: absolute;
+}
+
+.button {
+  font-style: normal;
+  font-weight: 800;
   text-align: center;
   color: #FFFFFF;
   background: #1FDB84;
   box-shadow: 0px 8px 34px rgba(31, 219, 132, 0.6);
-  border-radius: 5px 0px;
 }
 
 /*# sourceMappingURL=index.css.map */

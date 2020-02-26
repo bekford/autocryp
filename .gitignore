@@ -3,6 +3,8 @@
 package-lock.json
 # Ignore any file named package-lock.json.
 package.json
+# Ignore any file named .gitignore.
+.gitignore
 # Ignore (generated) json files,
 *.json
 # except foo.html which is maintained by hand.
