@@ -1,0 +1,64 @@
+body {
+  font-family: Rubik;
+  height: 2000px;
+  margin: 0;
+}
+
+.header {
+  display: flex;
+  position: absolute;
+  top: 0;
+  background: #313A5A;
+  color: white;
+  justify-content: space-between;
+  padding: 25px 132px 0 131px;
+  align-items: baseline;
+}
+.header__company {
+  height: 58px;
+  left: 9.1%;
+  right: 82.92%;
+  top: calc(50% - 58px/2 - 2121px);
+  font-size: 26px;
+  line-height: 58px;
+  font-weight: 500;
+  padding-right: 296px;
+}
+.header__nav-link {
+  margin-left: 37.5px;
+}
+.header__nav-link:first-child {
+  margin-left: 0;
+}
+.header__login {
+  padding-left: 210px;
+}
+.header__register {
+  padding: 4px 24.5px 2px 26.5px;
+  font-size: 18px;
+  line-height: 34px;
+}
+
+.wrapper {
+  position: fixed;
+  left: 0;
+  width: 85%;
+  /* ??? */
+}
+
+.link {
+  text-decoration: none;
+  color: white;
+}
+
+.button {
+  font-style: normal;
+  font-weight: bold;
+  text-align: center;
+  color: #FFFFFF;
+  background: #1FDB84;
+  box-shadow: 0px 8px 34px rgba(31, 219, 132, 0.6);
+  border-radius: 5px 0px;
+}
+
+/*# sourceMappingURL=index.css.map */
