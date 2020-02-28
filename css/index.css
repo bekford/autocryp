@@ -1,30 +1,28 @@
 body {
-  font-family: Rubik;
   height: 2000px;
   margin: 0;
+  font-family: Rubik;
 }
 
 .header {
   display: flex;
-  position: absolute;
+  position: fixed;
   top: 0;
   background: #313A5A;
   color: white;
   justify-content: space-between;
   padding: 25px 132px 0 131px;
   align-items: baseline;
+  z-index: 3;
 }
 .header__company {
-  height: 58px;
-  left: 9.1%;
-  right: 82.92%;
-  top: calc(50% - 58px/2 - 2121px);
   font-size: 26px;
   line-height: 58px;
   font-weight: 500;
   padding-right: 296px;
 }
 .header__nav-link {
+  font-size: 16px;
   margin-left: 37.5px;
 }
 .header__nav-link:first-child {
@@ -35,15 +33,13 @@ body {
 }
 .header__register {
   padding: 4px 24.5px 2px 26.5px;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 34px;
+  margin-left: 38.5px;
 }
 
 .wrapper {
-  position: fixed;
-  left: 0;
   width: 85%;
-  /* ??? */
 }
 
 .button {
@@ -56,50 +52,45 @@ body {
   box-shadow: 0px 8px 34px rgba(31, 219, 132, 0.6);
 }
 
+.link {
+  text-decoration: none;
+  color: white;
+}
+
 .hero-section {
   display: flex;
+  justify-content: space-between;
   background: #313A5A;
+  color: #FFFFFF;
 }
 .hero-section__nav {
-  display: flex;
-  flex-direction: column;
   padding: 229px 0 314px 131px;
 }
 .hero-section__nav-title {
   font-family: Rubik;
   font-style: normal;
-  font-weight: bold;
+  font-weight: 500;
   font-size: 48px;
   line-height: 57px;
-  color: #FFFFFF;
-  width: 430px;
+  width: 450px;
   margin-bottom: 40px;
 }
 .hero-section__nav-description {
-  position: relative;
   min-height: 128px;
-  width: 490px;
-  margin-right: 756px;
+  width: 553px;
   font-family: Rubik;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
   line-height: 32px;
-  color: #FFFFFF;
   margin-bottom: 35px;
 }
 .hero-section__nav-get-started {
   padding: 20px 47.5px 19px 46.5px;
-  margin-right: 1109px;
+  font-size: 18px;
 }
 .hero-section__smartphone {
-  position: absolute;
-  padding: 128px 169px 0 808px;
-}
-
-.link {
-  text-decoration: none;
-  color: white;
+  padding: 128px 169px 0 124px;
 }
 
 /*# sourceMappingURL=index.css.map */

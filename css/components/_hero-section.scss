@@ -1,44 +1,36 @@
 .hero-section {
     display: flex;
-    
+    justify-content: space-between;
     background: #313A5A;
+    color: #FFFFFF;
     &__nav {
-        display: flex;
-        flex-direction: column;
         padding: 229px 0 314px 131px;
     }
     &__nav-title {
         font-family: Rubik;
         font-style: normal;
-        font-weight: bold;
+        font-weight: 500;
         font-size: 48px;
         line-height: 57px;
-        color: #FFFFFF;
-        width: 430px;
+        width: 450px;
         margin-bottom: 40px;
     }
     &__nav-description { 
-
-        position: relative;
         min-height: 128px;
-        width: 490px;
-        margin-right: 756px;
+        width: 553px;
         font-family: Rubik;
         font-style: normal;
         font-weight: normal;
         font-size: 16px;
         line-height: 32px;
-        color: #FFFFFF;
         margin-bottom: 35px;
     }
     &__nav-get-started {
         padding: 20px 47.5px 19px 46.5px;
-        margin-right: 1109px;
-        
+        font-size: 18px;
     }
     &__smartphone {
-        position: absolute;
-        padding: 128px 169px 0 808px;
+        padding: 128px 169px 0 124px;
         
     }
     
