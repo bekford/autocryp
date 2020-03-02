@@ -3,8 +3,6 @@
 package-lock.json
 # Ignore any file named package.json.
 package.json
-# Ignore any file named reset.css.
-reset.css
 # Ignore any file named .gitignore.
 .gitignore
 # Ignore (generated) json files,
