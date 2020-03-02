@@ -1,8 +1,10 @@
 # Lines starting with '#' are considered comments.
 # Ignore any file named package-lock.json.
 package-lock.json
-# Ignore any file named package-lock.json.
+# Ignore any file named package.json.
 package.json
+# Ignore any file named reset.css.
+reset.css
 # Ignore any file named .gitignore.
 .gitignore
 # Ignore (generated) json files,
@@ -10,4 +12,4 @@ package.json
 # except foo.html which is maintained by hand.
 !foo.html
 # Ignore objects and archives.
-node_modules
+node_modules/
