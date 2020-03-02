@@ -2,18 +2,20 @@ body {
   height: 2000px;
   margin: 0;
   font-family: Rubik;
+  box-sizing: border-box;
 }
 
-.header {
+.header__wrapper {
   display: flex;
   position: fixed;
+  justify-content: space-between;
+  align-items: baseline;
+  padding: 25px 132px 0 131px;
   top: 0;
   background: #313A5A;
   color: white;
-  justify-content: space-between;
-  padding: 25px 132px 0 131px;
-  align-items: baseline;
   z-index: 3;
+  width: 100%;
 }
 .header__company {
   font-size: 26px;
@@ -39,7 +41,7 @@ body {
 }
 
 .wrapper {
-  width: 85%;
+  max-width: 1440px;
 }
 
 .button {
