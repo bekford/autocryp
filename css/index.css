@@ -2,6 +2,7 @@ body {
   height: 2000px;
   margin: 0;
   font-family: Rubik;
+  box-sizing: border-box;
 }
 
 .header__wrapper {
