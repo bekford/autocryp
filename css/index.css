@@ -1,7 +1,7 @@
 .header {
-  left: 131px;
-  right: 132px;
-  top: 25px;
+  left: 0;
+  right: 0;
+  top: 0;
   background: #313A5A;
   position: fixed;
   color: white;
@@ -40,10 +40,14 @@
 }
 
 .wrapper {
-  max-width: 1177px;
+  max-width: calc(1177px + 24px + 24px);
   width: 100%;
   margin: 0 auto;
   padding: 0 24px;
+}
+
+.header + hero-section:first-child {
+  padding-top: 33px;
 }
 
 .button {
