@@ -7,12 +7,12 @@
     color: white;
     z-index: 3;
     //margin-top: 25px; 
-    width: 100%;
+   
     &__wrapper {
         display: flex;
         justify-content: space-between;
         align-items: baseline; 
-        width: 81.7%;
+        
     }
     &__company {
         font-size: 26px;
@@ -44,6 +44,8 @@
 .wrapper {
     max-width: 1440px;
     width: 100%;
+    margin: 0 auto;
+    //padding: 0 24px;
 }
 
 //.header + hero-section:first-child {
