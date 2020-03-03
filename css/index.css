@@ -5,16 +5,17 @@ body {
   box-sizing: border-box;
 }
 
-.header__wrapper {
-  display: flex;
-  position: fixed;
-  justify-content: space-between;
-  align-items: baseline;
-  padding-top: 25px;
-  top: 0;
+.header {
   background: #313A5A;
+  position: fixed;
   color: white;
   z-index: 3;
+  padding-top: 25px;
+}
+.header__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
   width: 81.7%;
 }
 .header__company {
@@ -22,6 +23,10 @@ body {
   line-height: 58px;
   font-weight: 500;
   padding-right: 296px;
+}
+.header__nav {
+  display: flex;
+  justify-content: space-between;
 }
 .header__nav-link {
   font-size: 16px;

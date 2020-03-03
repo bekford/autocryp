@@ -5,17 +5,15 @@ body {
     box-sizing: border-box;
 }
 .header {
-    
+    background: #313A5A;
+    position: fixed;
+    color: white;
+    z-index: 3;
+    padding-top: 25px; 
     &__wrapper {
         display: flex;
-        position: fixed;
         justify-content: space-between;
-        align-items: baseline;
-        padding-top: 25px;
-        top: 0;
-        background: #313A5A;
-        color: white;
-        z-index: 3;
+        align-items: baseline; 
         width: 81.7%;
     }
     &__company {
@@ -23,6 +21,10 @@ body {
         line-height: 58px;
         font-weight: 500;
         padding-right: 296px;
+    }
+    &__nav {
+        display: flex;
+        justify-content: space-between;
     }
     &__nav-link {
         font-size: 16px;
