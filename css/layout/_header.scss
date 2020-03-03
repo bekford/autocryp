@@ -1,15 +1,13 @@
-body {
-    height: 2000px;
-    margin: 0;
-    font-family: 'Rubik', sans-serif;
-    box-sizing: border-box;
-}
 .header {
+    left: 131px;
+    right: 132px;
+    top: 25px;
     background: #313A5A;
     position: fixed;
     color: white;
     z-index: 3;
-    padding-top: 25px; 
+    //margin-top: 25px; 
+    width: 100%;
     &__wrapper {
         display: flex;
         justify-content: space-between;
@@ -45,6 +43,7 @@ body {
 }
 .wrapper {
     max-width: 1440px;
+    width: 100%;
 }
 
 //.header + hero-section:first-child {
