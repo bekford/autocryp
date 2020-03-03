@@ -1,7 +1,7 @@
 body {
   height: 2000px;
   margin: 0;
-  font-family: Rubik;
+  font-family: "Rubik", sans-serif;
   box-sizing: border-box;
 }
 
@@ -10,12 +10,12 @@ body {
   position: fixed;
   justify-content: space-between;
   align-items: baseline;
-  padding: 25px 132px 0 131px;
+  padding-top: 25px;
   top: 0;
   background: #313A5A;
   color: white;
   z-index: 3;
-  width: 100%;
+  width: 81.7%;
 }
 .header__company {
   font-size: 26px;
