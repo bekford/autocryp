@@ -60,7 +60,6 @@
   align-self: center;
 }
 .hero-section__nav-title {
-  font-family: Rubik;
   font-style: normal;
   font-weight: 500;
   font-size: 48px;
@@ -71,7 +70,6 @@
 .hero-section__nav-description {
   min-height: 128px;
   width: 553px;
-  font-family: Rubik;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -85,6 +83,17 @@
 .hero-section__smartphone {
   padding-top: 128px;
   align-self: center;
+}
+
+.benefit {
+  background: #FFFFFF;
+  border-radius: 10px;
+  position: absolute;
+  color: #031D5B;
+  box-shadow: 0px 10px 34px rgba(210, 210, 210, 0.5);
+  height: 420px;
+  left: 92px;
+  top: 810px;
 }
 
 .button {
@@ -107,7 +116,7 @@
 }
 
 body {
-  height: 3000px;
+  height: 4350px;
   margin: 0;
   font-family: "Rubik", sans-serif;
 }
