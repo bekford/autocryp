@@ -16,11 +16,6 @@
   font-size: 26px;
   line-height: 58px;
   font-weight: 500;
-  padding-right: 296px;
-}
-.header__nav {
-  display: flex;
-  justify-content: space-between;
 }
 .header__nav-link {
   font-size: 16px;
@@ -29,50 +24,31 @@
 .header__nav-link:first-child {
   margin-left: 0;
 }
-.header__login {
-  padding-left: 210px;
+.header__left {
+  display: flex;
+  align-items: baseline;
 }
-.header__register {
+.header__left-register {
+  display: block;
   padding: 4px 24.5px 2px 26.5px;
   font-size: 16px;
   line-height: 34px;
   margin-left: 38.5px;
 }
 
-.wrapper {
-  max-width: calc(1177px + 24px + 24px);
-  width: 100%;
-  margin: 0 auto;
-  padding: 0 24px;
-}
-
-.header + hero-section:first-child {
-  padding-top: 33px;
-}
-
-.button {
-  font-style: normal;
-  font-weight: 800;
-  text-align: center;
-  color: #FFFFFF;
-  background: #1FDB84;
-  border-radius: 5px 0px;
-  box-shadow: 0px 8px 34px rgba(31, 219, 132, 0.6);
-}
-
-.link {
-  text-decoration: none;
-  color: white;
-}
-
+/*.header + hero-section:first-child {
+    padding-top: 33px;
+}*/
 .hero-section {
-  display: flex;
-  justify-content: space-between;
   background: #313A5A;
   color: #FFFFFF;
 }
+.hero-section__wrapper {
+  display: flex;
+  justify-content: space-between;
+}
 .hero-section__nav {
-  padding: 229px 0 314px 131px;
+  align-self: center;
 }
 .hero-section__nav-title {
   font-family: Rubik;
@@ -98,7 +74,23 @@
   font-size: 18px;
 }
 .hero-section__smartphone {
-  padding: 128px 169px 0 124px;
+  padding-top: 128px;
+  align-self: center;
+}
+
+.button {
+  font-style: normal;
+  font-weight: 800;
+  text-align: center;
+  color: #FFFFFF;
+  background: #1FDB84;
+  border-radius: 5px 0px;
+  box-shadow: 0px 8px 34px rgba(31, 219, 132, 0.6);
+}
+
+.link {
+  text-decoration: none;
+  color: white;
 }
 
 * {
@@ -106,9 +98,16 @@
 }
 
 body {
-  height: 2000px;
+  height: 3000px;
   margin: 0;
   font-family: "Rubik", sans-serif;
+}
+
+.wrapper {
+  max-width: calc(1177px + 24px + 24px);
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 24px;
 }
 
 /*# sourceMappingURL=index.css.map */

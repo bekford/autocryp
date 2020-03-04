@@ -21,7 +21,7 @@
         
     }
     &__nav {
-        position: absolute;
+    
     }
     &__nav-link {
         font-size: 16px;
@@ -30,23 +30,23 @@
     &__nav-link:first-child {
         margin-left: 0;
     }
+    &__left {
+        display: flex;
+        align-items: baseline; 
+    }
     &__login {
         
     }
-    &__register {
+    &__left-register {
+        display: block;
         padding: 4px 24.5px 2px 26.5px;
         font-size: 16px;
         line-height: 34px;
         margin-left: 38.5px;
     }
 }
-.wrapper {
-    max-width: calc(1177px + 24px + 24px);
-    width: 100%;
-    margin: 0 auto;
-    padding: 0 24px;
-}
 
-.header + hero-section:first-child {
+
+/*.header + hero-section:first-child {
     padding-top: 33px;
-}
+}*/

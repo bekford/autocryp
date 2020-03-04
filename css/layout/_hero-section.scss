@@ -1,10 +1,15 @@
 .hero-section {
-    display: flex;
-    justify-content: space-between;
     background: #313A5A;
     color: #FFFFFF;
+    
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        
+        
+    }
     &__nav {
-        padding: 229px 0 314px 131px;
+        align-self: center;
     }
     &__nav-title {
         font-family: Rubik;
@@ -30,7 +35,8 @@
         font-size: 18px;
     }
     &__smartphone {
-        padding: 128px 169px 0 124px;
+        padding-top: 128px;
+        align-self: center;
         
     }
     
