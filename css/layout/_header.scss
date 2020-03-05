@@ -12,13 +12,11 @@
         display: flex;
         justify-content: space-between;
         align-items: baseline; 
-        
     }
     &__company {
         font-size: 26px;
         line-height: 58px;
         font-weight: 500;
-        
     }
     &__nav {
         display: flex;
@@ -40,9 +38,6 @@
         display: flex;
         align-items: baseline; 
     }
-    &__login {
-        
-    }
     &__left-register {
         display: block;
         padding: 4px 24.5px 2px 26.5px;
@@ -53,6 +48,6 @@
 }
 
 
-/*.header + hero-section:first-child {
+header + nav {
     padding-top: 33px;
-}*/
+}
