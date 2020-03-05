@@ -99,6 +99,9 @@ header + nav {
 .item-grid {
   display: flex;
 }
+.item-grid__first-image {
+  background-image: url(/image/Rectangle.png);
+}
 .item-grid__first-header-text {
   color: #031D5B;
   padding-top: 26px;
@@ -142,12 +145,29 @@ header + nav {
 hr {
   background-color: #1FDB84;
   color: #1FDB84;
-  box-align: left;
+  text-align: left;
   height: 4px;
   width: 60px;
   border: none;
   margin-top: 29px;
   margin-bottom: 18px;
+}
+
+.image {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.image-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rbga(#1FDB84, 0.1);
+  background-size: contain;
+  width: 72px;
+  height: 72px;
+  border-radius: 6px;
 }
 
 .button {

@@ -64,7 +64,7 @@
 hr {
     background-color: #1FDB84;
     color: #1FDB84;
-    box-align: left; // does not work
+    text-align: left; // does not work
     height: 4px;
     width: 60px;
     border: none;
@@ -76,3 +76,14 @@ hr {
     top: 0;
     left: 0;
 }
+.image-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rbga(#1FDB84, 0.1);
+    background-size: contain;
+    width: 72px;
+    height: 72px;
+    border-radius: 6px;
+}
+
