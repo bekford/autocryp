@@ -1,0 +1,149 @@
+.pricing {
+    
+    &__title {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 40px;
+        line-height: 1.6;
+        font-weight: 500;
+        color: #32325C;
+        text-align: center;
+        width: 65%;
+    }
+    &__plan-wrapper {
+        display: flex;
+        justify-content: center;
+    }
+    &__plan {
+        display: flex;
+        align-items: baseline;
+        justify-content: space-between;
+        border-radius: 5px;
+        font-size: 16px;
+        line-height: 1.1875;
+        font-weight: 500;
+        border: 1px solid #AEFDD9;
+        max-width: 470px;
+        margin-top: 60px;
+        margin-bottom: 60px;
+    }
+    &__plan-monthly {
+        color: #6FDEAA;
+        background: #FFFFFF;
+       
+       padding: 21px 36px 20px 37px;
+    }
+    /*&__plan-yearly::before {
+        content: '';
+        display: block;
+        position: absolute;
+        border-left: 1px solid #AEFDD9;
+        height: 60px;
+        
+        //margin-right: 43px;
+        
+        
+    
+    }*/
+    &__plan-yearly {
+        color: #6FDEAA;
+        letter-spacing: 2px; //?
+        padding: 21px 31px 20px 43px;
+        background: #F1FFF8;
+        border-left: 1px solid #AEFDD9;
+    }
+    &__tarif {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__card {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: space-between;
+        width: 33%;
+    }
+    &__card-title {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    &__card-plan {
+        font-size: 24px;
+        font-weight: 500;
+        letter-spacing: 0.266667px; //?
+        line-height: 1.33;
+        padding-bottom: 31px;
+        color: #32325C;
+    }
+    &__card-cost {
+        color: #1FDB84;
+        font-size: 72px;
+        line-height: 0.888;
+        padding-bottom: 13px;
+    }
+    &__card-per-month {
+        color: #5B6C94;
+    }
+    &__card-list {
+        display: flex;
+        flex-direction: column;
+       // flex-wrap: wrap;
+        align-items: center;
+        color: #5B6C94;
+        letter-spacing: 0.1px;
+        font-size: 16px;
+        line-height: 2; 
+        padding-bottom: 60px;
+        padding-top: 60px;
+        max-width: 206px;
+        
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+    &__card-start {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 21px 47px 20px 46px;
+        max-width: 255px;
+        margin-bottom: 57px;
+    }
+
+    /*&__card-list li:first-child {
+        padding-bottom: 15px;
+    }
+    &__card-list li:nth-child(2) {
+        padding-bottom: 17px;
+    }
+    &__card-list li:nth-child(3) {
+        padding-bottom: 108px;
+    }
+    &__card-list li:last-child {
+        display: absolute;
+
+    }*/
+    
+
+    //&__tarif-start {
+      //  padding: 21px 47px 20px 46px;
+        
+    //}
+}
+.background-card {
+    background: #FFFFFF;
+    box-shadow: 0px 7px 24px rgba(83, 83, 83, 0.1);  
+    border-top: 3px solid  #0A8AFF;
+}
+
+
+/*.pricing__title {
+    font-size: 40px;
+    line-height: 1.6;
+    font-weight: 500;
+    color: #32325C;
+    text-align: center;
+}
+*/

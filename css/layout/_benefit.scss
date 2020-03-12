@@ -6,12 +6,10 @@
     z-index: 2;
     position: relative;
     top: -110px;
-    //height: 420px;
     
     &__list {
         display: flex;
         justify-content: space-around;
-        //height: 266px;
         padding-top: 66px;
         padding-bottom: 88px;   
     }
@@ -20,10 +18,10 @@
         align-items: center;
         justify-content: center;
         width: 72px;
-         height: 72px;
-         padding: 16px;
-         border-radius: 6px;
-         background-color: rgba(#1FDB84, 0.1);
+        height: 72px;
+        padding: 16px;
+        border-radius: 6px;
+        background-color: rgba(#1FDB84, 0.1);
      }    
     &__item-heading {
         color: #031D5B;
@@ -55,11 +53,5 @@ hr {
     margin-top: 29px;
     margin-bottom: 18px;
 }
-/*.image-inside {
-    max-width: 40px;
-    max-height: 34px;
-    width: 100%;
-    height: auto;
-}*/
 
 
