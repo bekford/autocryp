@@ -31,21 +31,8 @@
     &__plan-monthly {
         color: #6FDEAA;
         background: #FFFFFF;
-       
-       padding: 21px 36px 20px 37px;
+        padding: 21px 36px 20px 37px;
     }
-    /*&__plan-yearly::before {
-        content: '';
-        display: block;
-        position: absolute;
-        border-left: 1px solid #AEFDD9;
-        height: 60px;
-        
-        //margin-right: 43px;
-        
-        
-    
-    }*/
     &__plan-yearly {
         color: #6FDEAA;
         letter-spacing: 2px; //?
@@ -89,14 +76,11 @@
     &__card-list {
         display: flex;
         flex-direction: column;
-       // flex-wrap: wrap;
         align-items: center;
         color: #5B6C94;
         letter-spacing: 0.1px;
         font-size: 16px;
         line-height: 1.75; 
-       // padding-bottom: 60px;
-        //padding-top: 60px;
         max-width: 50%;
         margin-top: 60px;
         margin-bottom: 60px;
@@ -117,40 +101,9 @@
         max-width: 255px;
         margin-bottom: 57px;
     }
-
-    /*&__card-list li:first-child {
-        padding-bottom: 15px;
-    }
-    &__card-list li:nth-child(2) {
-        padding-bottom: 17px;
-    }
-    &__card-list li:nth-child(3) {
-        padding-bottom: 108px;
-    }
-    &__card-list li:last-child {
-        display: absolute;
-
-    }*/
-    
-
-    //&__tarif-start {
-      //  padding: 21px 47px 20px 46px;
-        
-    //}
 }
 .background-card {
     background: #FFFFFF;
     box-shadow: 0px 7px 24px rgba(83, 83, 83, 0.1);  
     border-top: 3px solid  #0A8AFF;
 }
-
-
-
-/*.pricing__title {
-    font-size: 40px;
-    line-height: 1.6;
-    font-weight: 500;
-    color: #32325C;
-    text-align: center;
-}
-*/
