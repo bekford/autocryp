@@ -1,5 +1,5 @@
 .pricing {
-    
+  
     &__title {
         display: block;
         margin-left: auto;
@@ -24,14 +24,13 @@
         line-height: 1.1875;
         font-weight: 500;
         border: 1px solid #AEFDD9;
-        max-width: 470px;
         margin-top: 60px;
         margin-bottom: 60px;
     }
     &__plan-monthly {
         color: #6FDEAA;
         background: #FFFFFF;
-        padding: 21px 36px 20px 37px;
+        padding: 20px 36px;
     }
     &__plan-yearly {
         color: #6FDEAA;
@@ -48,8 +47,10 @@
         display: flex;
         flex-direction: column;
         text-align: center;
-        justify-content: space-between;
+        align-items: center;
         width: 33%;
+        padding-bottom: 57px;
+        padding-top: 56px;
     }
     &__card-title {
         display: flex;
@@ -59,7 +60,7 @@
     &__card-plan {
         font-size: 24px;
         font-weight: 500;
-        letter-spacing: 0.266667px; //?
+        letter-spacing: 2px; //?
         line-height: 1.33;
         padding-bottom: 31px;
         color: #32325C;
@@ -95,11 +96,8 @@
     }
     &__card-start {
         display: block;
-        margin-left: auto;
-        margin-right: auto;
-        padding: 21px 47px 20px 46px;
-        max-width: 255px;
-        margin-bottom: 57px;
+        padding: 21px 47px;
+        margin-top: auto;
     }
 }
 .background-card {
