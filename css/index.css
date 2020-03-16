@@ -222,7 +222,7 @@ hr {
   padding-bottom: 31px;
   color: #32325C;
 }
-.pricing-card__card-title {
+.pricing-card__title {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
