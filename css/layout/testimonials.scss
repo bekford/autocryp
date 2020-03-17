@@ -1,16 +1,57 @@
 .testimonials {
+
+    &__wrapper {
+        position: relative;
+        margin-top: 280px;
+    }
     &__title {
+        max-width: 25%;
+        position: absolute;
         color: #031D5B;
         font-weight: 500;
         font-size: 40px;
         line-height: 1.2;
+        top: 10%;
+        left: 2%;
     }
-    &__title-background {
-        position: absolute;
-        width: 165px;
-        height: 413px;
-        background: linear-gradient(180deg, rgba(31, 219, 132, 0.1) -3.47%, 
-        rgba(31, 219, 132, 0.05) 100%);
+    &__quotes-one {
+        padding-right: 48px;
+        color: rgba(31, 219, 132, 0.1);
+    }
+    &__quotes-two {
+        color: rgba(31, 219, 132, 0.1);
+    }
+    &__card {
+        display: flex;
+        max-width: 40%;
+        color: #FFFFFF;
         
     }
+    &__card-wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    &__card-qoutes {
+        display: flex;
+        padding-top: 80px;
+        padding-left: 0;
+    }
+    &__card-text {
+        font-size: 18px;
+        line-height: 2;
+        max-width: 70%;
+    }
+    &__card-singature {
+        display: flex;
+        justify-content: center;
+        padding-bottom: 63px;
+        padding-top: 42px;
+    }
+    &__card-singature-autor {
+        padding-right: 9px;
+    }
+}
+.green {
+    background-color: #1FDB84;
 }
