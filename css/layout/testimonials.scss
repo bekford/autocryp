@@ -24,34 +24,67 @@
     &__card {
         display: flex;
         max-width: 40%;
-        color: #FFFFFF;
-        
+        border-radius: 6px;
+        margin-right: 40px;
+    }
+    &__card:after {
+        margin-right: 0;
     }
     &__card-wrapper {
         display: flex;
+        justify-content: flex-start;
+
+    }
+    &__card-content {
+        display: flex;
         flex-direction: column;
-        align-items: center;
+        justify-content: flex-start;
+        
+        padding-left: 50px;
     }
     &__card-qoutes {
         display: flex;
+        justify-content: flex-start;
         padding-top: 80px;
-        padding-left: 0;
+        padding-bottom: 23px;
+        
+    }
+    &__card-little-quotes {
+        padding-right: 13px;
+    }
+    &__card-little-quotes::after {
+        padding-right: 0; //?? did not work
     }
     &__card-text {
         font-size: 18px;
         line-height: 2;
         max-width: 70%;
+
     }
     &__card-singature {
         display: flex;
-        justify-content: center;
+        justify-content: flex-start;
         padding-bottom: 63px;
         padding-top: 42px;
+        
     }
     &__card-singature-autor {
         padding-right: 9px;
+        font-weight: 500;
     }
 }
-.green {
+.green-background {
     background-color: #1FDB84;
+    color: #FFFFFF;
+    box-shadow: 12px 12px 40px rgba(31, 219, 132, 0.5);
+}
+.gray-text {
+    color: #5B6C94; 
+    box-shadow: 12px 12px 40px rgba(121, 121, 121, 0.3);
+}
+.black-autor {
+    color: #031D5B;
+}
+.green-qoutes {
+    color: #1FDB84;
 }
