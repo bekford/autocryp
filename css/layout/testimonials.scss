@@ -1,90 +1,83 @@
 .testimonials {
-
+    position: relative;
     &__wrapper {
         position: relative;
         margin-top: 280px;
+       
     }
+
     &__title {
-        max-width: 25%;
+        max-width: 20%;
         position: absolute;
         color: #031D5B;
         font-weight: 500;
         font-size: 40px;
         line-height: 1.2;
         top: 10%;
-        left: 2%;
+        left: 11%;
     }
-    &__quotes-one {
+
+    &__quotes {
         padding-right: 48px;
         color: rgba(31, 219, 132, 0.1);
+        margin-left: 147px;
     }
-    &__quotes-two {
-        color: rgba(31, 219, 132, 0.1);
-    }
-    &__card {
-        display: flex;
-        max-width: 40%;
-        border-radius: 6px;
-        margin-right: 40px;
-    }
+
     &__card:after {
         margin-right: 0;
     }
-    &__card-wrapper {
+    &__circles {
         display: flex;
-        justify-content: flex-start;
+        
+        padding-bottom: 90px;
+        margin-left: 100px;
+    }
+}
 
-    }
-    &__card-content {
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-start;
-        
-        padding-left: 50px;
-    }
-    &__card-qoutes {
-        display: flex;
-        justify-content: flex-start;
-        padding-top: 80px;
-        padding-bottom: 23px;
-        
-    }
-    &__card-little-quotes {
-        padding-right: 13px;
-    }
-    &__card-little-quotes::after {
-        padding-right: 0; //?? did not work
-    }
-    &__card-text {
-        font-size: 18px;
-        line-height: 2;
-        max-width: 70%;
-
-    }
-    &__card-singature {
-        display: flex;
-        justify-content: flex-start;
-        padding-bottom: 63px;
-        padding-top: 42px;
-        
-    }
-    &__card-singature-autor {
-        padding-right: 9px;
-        font-weight: 500;
-    }
+.empty-circle {
+    width: 20px;
+    height: 20px;
+    border: 3px solid #FFFFFF;
+    border-radius: 50%;
+    margin-right: 16px;
+}
+.empty-circle:last-child {
+    margin-right: 0;
+}
+.full-circle {
+    width: 20px;
+    height: 20px;
+    border: 3px solid #FFFFFF;
+    border-radius: 50%;
+    background-color: #FFFFFF;
+    margin-right: 16px;
+}
+.card-wrapper {
+    position: absolute;
+    background: #313A5A;
+    top: -30px;
+    margin-left: 45%;
+}
+.card-shift {
+    display: block;
+    
 }
 .green-background {
     background-color: #1FDB84;
     color: #FFFFFF;
     box-shadow: 12px 12px 40px rgba(31, 219, 132, 0.5);
 }
+
 .gray-text {
-    color: #5B6C94; 
+    color: #5B6C94;
     box-shadow: 12px 12px 40px rgba(121, 121, 121, 0.3);
+    background: #FFFFFF;
 }
+
 .black-autor {
     color: #031D5B;
 }
+
 .green-qoutes {
     color: #1FDB84;
 }
