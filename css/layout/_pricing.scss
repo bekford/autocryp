@@ -25,7 +25,7 @@
         font-weight: 500;
         border: 1px solid #AEFDD9;
         margin-top: 60px;
-        margin-bottom: 60px;
+      //  margin-bottom: 60px;
     }
     &__plan-monthly {
         color: #6FDEAA;
@@ -42,6 +42,8 @@
     &__tarif {
         display: flex;
         justify-content: space-between;
+        padding-top: 2vw;
+        padding-bottom: 3.1vw;
     }
    
 }

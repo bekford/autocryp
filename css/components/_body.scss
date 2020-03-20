@@ -1,7 +1,7 @@
 * {
     box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+   // margin: 0;
+   // padding: 0;
   }
 body {
  // display: flex;
@@ -10,18 +10,18 @@ body {
     margin: 0;
     font-family: 'Rubik', sans-serif;
     overflow-x: hidden;
-   height: 100%; // низ страницы поднялся до последней секции
+  // height: 100%; // низ страницы поднялся до последней секции
 }
 html {
  // position: relative;
  //height: 100%;
 
  
-}
+}/*
 .wrapper-wrapper2 {
   display: table;
 	height: 100%;
-}/*
+}
 .wrapper-wrapper {
   box-sizing: border-box;
 	min-height: 100%;
