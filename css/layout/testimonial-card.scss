@@ -4,6 +4,8 @@
     max-width: 40%;
     border-radius: 6px;
     margin-right: 40px;
+    padding-top: 80px;
+    padding-bottom: 63px;
 
     &__content {
         display: flex;
@@ -16,20 +18,18 @@
     &__qoutes {
         display: flex;
         justify-content: flex-start;
-        padding-top: 80px;
-        padding-bottom: 23px;
     }
 
     &__text {
         font-size: 18px;
         line-height: 2;
         width: 310px;
+        padding-top: 23px;
     }
 
     &__singature {
         display: flex;
         justify-content: flex-start;
-        padding-bottom: 63px;
         margin-top: auto;
         padding-top: 42px;
     }

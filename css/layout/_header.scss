@@ -6,7 +6,8 @@
     position: fixed;
     color: white;
     z-index: 3;
-   padding-top: 25px; 
+   padding-top: 12px; 
+   padding-bottom: 12px;
    
     &__wrapper {
         display: flex;
@@ -23,9 +24,8 @@
         justify-content: space-between;
         position: absolute;
         left: 50%;
-        top: 65%;
+        top: 50%;
         transform: translate(-50%,-50%);
-     //   width: auto;
     }
     &__nav-link {
         font-size: 16px;

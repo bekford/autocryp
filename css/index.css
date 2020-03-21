@@ -6,7 +6,8 @@
   position: fixed;
   color: white;
   z-index: 3;
-  padding-top: 25px;
+  padding-top: 12px;
+  padding-bottom: 12px;
 }
 .header__wrapper {
   display: flex;
@@ -23,7 +24,7 @@
   justify-content: space-between;
   position: absolute;
   left: 50%;
-  top: 65%;
+  top: 50%;
   transform: translate(-50%, -50%);
 }
 .header__nav-link {
@@ -55,6 +56,7 @@ header + nav {
   font-size: 16px;
   line-height: 2;
   padding-bottom: 114px;
+  padding-top: 100px;
 }
 .footer__text {
   padding-bottom: 50px;
@@ -89,7 +91,6 @@ header + nav {
   padding-bottom: 40px;
 }
 .hero-section__text-description {
-  min-height: 128px;
   width: 553px;
   font-style: normal;
   font-size: 16px;
@@ -118,8 +119,8 @@ header + nav {
 .benefits__list {
   display: flex;
   justify-content: space-around;
-  padding-top: 66px;
-  padding-bottom: 88px;
+  padding-top: 70px;
+  padding-bottom: 70px;
 }
 .benefits__item-image {
   display: flex;
@@ -337,6 +338,8 @@ hr {
   max-width: 40%;
   border-radius: 6px;
   margin-right: 40px;
+  padding-top: 80px;
+  padding-bottom: 63px;
 }
 .testimonial-card__content {
   display: flex;
@@ -348,18 +351,16 @@ hr {
 .testimonial-card__qoutes {
   display: flex;
   justify-content: flex-start;
-  padding-top: 80px;
-  padding-bottom: 23px;
 }
 .testimonial-card__text {
   font-size: 18px;
   line-height: 2;
   width: 310px;
+  padding-top: 23px;
 }
 .testimonial-card__singature {
   display: flex;
   justify-content: flex-start;
-  padding-bottom: 63px;
   margin-top: auto;
   padding-top: 42px;
 }
@@ -409,9 +410,10 @@ hr {
 .partners {
   flex: 0 0 auto;
   padding-bottom: 80px;
+  padding-top: 12.5vw;
+  padding-bottom: 80px;
 }
 .partners__cross-platform {
-  padding-top: 12.5vw;
   text-align: center;
   padding-bottom: 46.68px;
   font-size: 16px;
@@ -422,7 +424,6 @@ hr {
 .partners__wrapper {
   display: flex;
   justify-content: space-around;
-  padding-bottom: 80px;
 }
 
 .content {
