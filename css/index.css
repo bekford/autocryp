@@ -6,11 +6,12 @@
   position: fixed;
   color: white;
   z-index: 3;
+  padding-top: 25px;
 }
 .header__wrapper {
   display: flex;
   justify-content: space-between;
-  align-items: baseline;
+  align-items: center;
 }
 .header__company {
   font-size: 26px;
@@ -22,7 +23,7 @@
   justify-content: space-between;
   position: absolute;
   left: 50%;
-  top: 50%;
+  top: 65%;
   transform: translate(-50%, -50%);
 }
 .header__nav-link {
@@ -53,12 +54,10 @@ header + nav {
   color: #5B6C94;
   font-size: 16px;
   line-height: 2;
+  padding-bottom: 114px;
 }
 .footer__text {
   padding-bottom: 50px;
-}
-.footer__nav {
-  margin-bottom: 114px;
 }
 .footer__nav-link {
   text-decoration: none;
@@ -78,10 +77,10 @@ header + nav {
   display: flex;
   justify-content: space-between;
 }
-.hero-section__nav {
+.hero-section__text {
   align-self: center;
 }
-.hero-section__nav-title {
+.hero-section__text-title {
   font-style: normal;
   font-weight: 500;
   font-size: 48px;
@@ -89,7 +88,7 @@ header + nav {
   max-width: 500px;
   padding-bottom: 40px;
 }
-.hero-section__nav-description {
+.hero-section__text-description {
   min-height: 128px;
   width: 553px;
   font-style: normal;
@@ -97,7 +96,8 @@ header + nav {
   line-height: 2;
   margin-bottom: 35px;
 }
-.hero-section__nav-get-started {
+.hero-section__text-get-started {
+  display: inline-block;
   padding: 20px 47.5px 19px 46.5px;
   font-size: 18px;
 }
@@ -191,6 +191,7 @@ hr {
   color: #6FDEAA;
   background: #FFFFFF;
   padding: 20px 36px;
+  border-radius: 5px 0px 0px 5px;
 }
 .pricing__plan-yearly {
   color: #6FDEAA;
@@ -198,6 +199,7 @@ hr {
   padding: 21px 31px 20px 43px;
   background: #F1FFF8;
   border-left: 1px solid #AEFDD9;
+  border-radius: 0px 5px 5px 0px;
 }
 .pricing__tarif {
   display: flex;
@@ -217,6 +219,7 @@ hr {
   justify-content: space-between;
   position: relative;
   padding-top: 15.45vw;
+  overflow: hidden;
 }
 .testimonials__title {
   max-width: 36%;

@@ -27,11 +27,13 @@
         border: 1px solid #AEFDD9;
        // margin-top: 60px; заменил на паддинг в title
       //  margin-bottom: 64px;
+        
     }
     &__plan-monthly {
         color: #6FDEAA;
         background: #FFFFFF;
         padding: 20px 36px;
+        border-radius: 5px 0px 0px 5px;
     }
     &__plan-yearly {
         color: #6FDEAA;
@@ -39,6 +41,7 @@
         padding: 21px 31px 20px 43px;
         background: #F1FFF8;
         border-left: 1px solid #AEFDD9;
+        border-radius: 0px 5px 5px 0px;
     }
     &__tarif {
         display: flex;

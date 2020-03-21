@@ -7,11 +7,11 @@
         justify-content: space-between;
     }
 
-    &__nav {
+    &__text {
         align-self: center;
     }
 
-    &__nav-title {
+    &__text-title {
         font-style: normal;
         font-weight: 500;
         font-size: 48px;
@@ -20,7 +20,7 @@
         padding-bottom: 40px; //поменял на паддинг
     }
 
-    &__nav-description {
+    &__text-description {
         min-height: 128px;
         width: 553px; // тот же вопрос
         font-style: normal;
@@ -30,7 +30,8 @@
         margin-bottom: 35px; 
     }
 
-    &__nav-get-started {
+    &__text-get-started {
+        display: inline-block;
         padding: 20px 47.5px 19px 46.5px;
         font-size: 18px;
     }
