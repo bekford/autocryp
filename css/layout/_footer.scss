@@ -1,0 +1,27 @@
+.footer {
+    flex: 0 0 auto;
+    text-align: center;
+    color: #5B6C94;
+    font-size: 16px;
+    line-height: 2;
+
+    &__text {
+        padding-bottom: 50px;
+    }
+
+    &__nav {
+        margin-bottom: 114px;
+    }
+
+    &__nav-link {
+        text-decoration: none;
+        color: #5B6C94;
+
+    }
+
+    &__nav-link:not(:last-child)::after {
+        content: '/';
+        padding-left: 15px;
+        padding-right: 10px;
+    }
+}

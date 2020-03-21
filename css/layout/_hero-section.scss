@@ -1,39 +1,44 @@
 .hero-section {
     background: #313A5A;
     color: #FFFFFF;
-    
+
     &__wrapper {
         display: flex;
-        justify-content: space-between;   
+        justify-content: space-between;
     }
+
     &__nav {
         align-self: center;
     }
+
     &__nav-title {
         font-style: normal;
         font-weight: 500;
         font-size: 48px;
         line-height: 1.1875;
-        width: 450px;
-        margin-bottom: 40px;
+        max-width: 500px; // это много? или заменить на vw?
+        padding-bottom: 40px; //поменял на паддинг
     }
-    &__nav-description { 
+
+    &__nav-description {
         min-height: 128px;
-        width: 553px;
+        width: 553px; // тот же вопрос
         font-style: normal;
-        font-weight: normal;
+        // font-weight: normal; убрал
         font-size: 16px;
         line-height: 2;
-        margin-bottom: 35px;
+        margin-bottom: 35px; 
     }
+
     &__nav-get-started {
         padding: 20px 47.5px 19px 46.5px;
         font-size: 18px;
     }
+
     &__smartphone {
         padding-top: 128px;
         align-self: center;
-        
+
     }
-    
+
 }

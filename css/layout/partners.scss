@@ -1,0 +1,28 @@
+.partners {
+   flex: 0 0 auto;
+  padding-bottom: 80px;
+
+  &__cross-platform {
+    padding-top: 12.5vw;
+    text-align: center;
+    padding-bottom: 46.68px;
+    font-size: 16px;
+    line-height: 1.1875;
+    font-weight: 500;
+    color: #031D5B;
+
+  }
+
+  &__wrapper {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 80px;
+
+    
+  }
+}
+
+
+.content {
+    flex: 1 0 auto;
+}

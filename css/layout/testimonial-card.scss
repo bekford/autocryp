@@ -1,0 +1,84 @@
+.testimonial-card {
+
+    display: flex;
+    max-width: 40%;
+    border-radius: 6px;
+    margin-right: 40px;
+
+    &__content {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        padding-left: 50px;
+        padding-right: 60px;
+    }
+
+    &__qoutes {
+        display: flex;
+        justify-content: flex-start;
+        padding-top: 80px;
+        padding-bottom: 23px;
+    }
+
+    &__text {
+        font-size: 18px;
+        line-height: 2;
+        width: 310px;
+    }
+
+    &__singature {
+        display: flex;
+        justify-content: flex-start;
+        padding-bottom: 63px;
+        margin-top: auto;
+        padding-top: 42px;
+    }
+
+    &__singature-autor {
+        padding-right: 9px;
+        font-weight: 500;
+    }
+
+    &--selected {
+        background-color: #1FDB84;
+        box-shadow: 12px 12px 40px rgba(31, 219, 132, 0.5);
+        color: #FFFFFF;
+    }
+
+    &--not-selected {
+        box-shadow: 12px 12px 40px rgba(121, 121, 121, 0.3);
+        background: #FFFFFF;
+        color: #5B6C94;
+    }
+    &__circles {
+        display: flex;
+        padding-bottom: 90px;
+      padding-left: 100px;
+        padding-top: 100px;
+        
+    }
+}
+
+.card-wrapper {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: -13vw;
+    
+}
+
+.card-background {
+    display: flex;
+    flex-direction: column;
+   padding-top: 15.45vw;
+    background: #313A5A;
+   width: 56.25%;
+    
+}
+
+.black-autor {
+    color: #031D5B;
+}
+
+.green-qoutes {
+    color: #1FDB84;
+}
