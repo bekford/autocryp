@@ -10,6 +10,7 @@
         color: #32325C;
         text-align: center;
         width: 65%;
+        padding-bottom: 60px;
     }
     &__plan-wrapper {
         display: flex;
@@ -24,7 +25,7 @@
         line-height: 1.1875;
         font-weight: 500;
         border: 1px solid #AEFDD9;
-        margin-top: 60px;
+       // margin-top: 60px; заменил на паддинг в title
       //  margin-bottom: 60px;
     }
     &__plan-monthly {
@@ -34,7 +35,7 @@
     }
     &__plan-yearly {
         color: #6FDEAA;
-        letter-spacing: 2px; //?
+        letter-spacing: 2px;
         padding: 21px 31px 20px 43px;
         background: #F1FFF8;
         border-left: 1px solid #AEFDD9;

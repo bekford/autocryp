@@ -1,17 +1,11 @@
 .testimonials {
+    display: flex;
+    justify-content: space-between;
     position: relative;
     padding-top: 15.45vw;
 
-    &__wrapper-for-title {
-        position: absolute;
-        //margin-top: 280px;
-       // margin-top: 30px;
-      //  padding-top: 30px;
-      //  margin-left: 8%;
-    }
-
     &__title {
-        max-width: 80%;
+        max-width: 36%;
         position: absolute;
         color: #031D5B;
         font-weight: 500;
@@ -20,7 +14,8 @@
         padding-top: 70px;
         padding-left: 17vw;
         left: 0;
-        top: 0;
+        top: 20%;
+      
     }
 
     &__quotes {
@@ -34,15 +29,6 @@
     &__card:after {
         margin-right: 0;
     }
-
-   /* &__circles {
-        display: flex;
-        position: absolute;
-        padding-bottom: 90px;
-        margin-left: 100px;
-        bottom: 0;
-        
-    }*/
 }
 
 .circle {
@@ -66,17 +52,3 @@
     margin-right: 16px;
 }
 
-
-
-/*.card-shift {
-    display: block;
-}
-
-.gray-text {
-   
-    
-}
-.white-text {
-    
-}
-*/

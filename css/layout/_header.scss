@@ -6,7 +6,7 @@
     position: fixed;
     color: white;
     z-index: 3;
-    //margin-top: 25px; 
+    //margin-top: 25px; пока не сделал
    
     &__wrapper {
         display: flex;
@@ -25,7 +25,7 @@
         left: 50%;
         top: 50%;
         transform: translate(-50%,-50%);
-        width: auto;
+     //   width: auto;
     }
     &__nav-link {
         font-size: 16px;

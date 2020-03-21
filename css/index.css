@@ -24,7 +24,6 @@
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
-  width: auto;
 }
 .header__nav-link {
   font-size: 16px;
@@ -48,6 +47,29 @@ header + nav {
   padding-top: 33px;
 }
 
+.footer {
+  flex: 0 0 auto;
+  text-align: center;
+  color: #5B6C94;
+  font-size: 16px;
+  line-height: 2;
+}
+.footer__text {
+  padding-bottom: 50px;
+}
+.footer__nav {
+  margin-bottom: 114px;
+}
+.footer__nav-link {
+  text-decoration: none;
+  color: #5B6C94;
+}
+.footer__nav-link:not(:last-child)::after {
+  content: "/";
+  padding-left: 15px;
+  padding-right: 10px;
+}
+
 .hero-section {
   background: #313A5A;
   color: #FFFFFF;
@@ -64,14 +86,13 @@ header + nav {
   font-weight: 500;
   font-size: 48px;
   line-height: 1.1875;
-  width: 450px;
-  margin-bottom: 40px;
+  max-width: 500px;
+  padding-bottom: 40px;
 }
 .hero-section__nav-description {
   min-height: 128px;
   width: 553px;
   font-style: normal;
-  font-weight: normal;
   font-size: 16px;
   line-height: 2;
   margin-bottom: 35px;
@@ -133,7 +154,6 @@ header + nav {
 hr {
   background-color: #1FDB84;
   color: #1FDB84;
-  margin-left: 0;
   height: 4px;
   width: 60px;
   border: none;
@@ -151,6 +171,7 @@ hr {
   color: #32325C;
   text-align: center;
   width: 65%;
+  padding-bottom: 60px;
 }
 .pricing__plan-wrapper {
   display: flex;
@@ -165,7 +186,6 @@ hr {
   line-height: 1.1875;
   font-weight: 500;
   border: 1px solid #AEFDD9;
-  margin-top: 60px;
 }
 .pricing__plan-monthly {
   color: #6FDEAA;
@@ -193,22 +213,13 @@ hr {
 }
 
 .testimonials {
+  display: flex;
+  justify-content: space-between;
   position: relative;
   padding-top: 15.45vw;
-  /* &__circles {
-       display: flex;
-       position: absolute;
-       padding-bottom: 90px;
-       margin-left: 100px;
-       bottom: 0;
-
-   }*/
-}
-.testimonials__wrapper-for-title {
-  position: absolute;
 }
 .testimonials__title {
-  max-width: 80%;
+  max-width: 36%;
   position: absolute;
   color: #031D5B;
   font-weight: 500;
@@ -217,7 +228,7 @@ hr {
   padding-top: 70px;
   padding-left: 17vw;
   left: 0;
-  top: 0;
+  top: 20%;
 }
 .testimonials__quotes {
   padding-right: 7vw;
@@ -250,18 +261,6 @@ hr {
   margin-right: 16px;
 }
 
-/*.card-shift {
-    display: block;
-}
-
-.gray-text {
-
-
-}
-.white-text {
-
-}
-*/
 .pricing-card {
   display: flex;
   flex-direction: column;
@@ -306,8 +305,8 @@ hr {
   font-size: 16px;
   line-height: 1.75;
   max-width: 50%;
-  margin-top: 60px;
-  margin-bottom: 60px;
+  padding-top: 60px;
+  padding-bottom: 60px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -393,7 +392,7 @@ hr {
   flex-direction: column;
   padding-top: 15.45vw;
   background: #313A5A;
-  margin-left: 45vw;
+  width: 56.25%;
 }
 
 .black-autor {
@@ -405,6 +404,7 @@ hr {
 }
 
 .partners {
+  flex: 0 0 auto;
   padding-bottom: 80px;
 }
 .partners__cross-platform {
@@ -418,28 +418,14 @@ hr {
 }
 .partners__wrapper {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+  padding-bottom: 80px;
 }
 
-/*
 .content {
-   // flex: 1 0 auto;
-   //min-height: calc(100vh - 80px);
-   display: table-row;
-   height: 100%;
+  flex: 1 0 auto;
 }
 
-.footer {
-   // flex: 0 0 auto;
-}
-/*.footer {
-    //flex: 0 0 auto;
-    height: 50px; 
- background: black;
- position: absolute;
- bottom: 0;
- width: 100%;
-}*/
 .button {
   font-style: normal;
   font-weight: 800;
@@ -466,6 +452,8 @@ hr {
 
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 body {
@@ -473,17 +461,17 @@ body {
   margin: 0;
   font-family: "Rubik", sans-serif;
   overflow-x: hidden;
+  height: 100%;
+}
+
+html {
+  height: 100%;
 }
 
 /*
 .wrapper-wrapper2 {
   display: table;
 	height: 100%;
-}
-.wrapper-wrapper {
-  box-sizing: border-box;
-	min-height: 100%;
-	padding-bottom: 90px;
 }*/
 .wrapper {
   max-width: calc(1177px + 24px + 24px);
@@ -491,5 +479,13 @@ body {
   margin: 0 auto;
   padding: 0 24px;
 }
+
+/*
+.wrapper-for-footer {
+    display: flex;
+   flex-direction: column;
+   min-height: 100%;
+
+  }*/
 
 /*# sourceMappingURL=index.css.map */
