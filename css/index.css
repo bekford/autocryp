@@ -91,7 +91,7 @@ header + nav {
   padding-bottom: 40px;
 }
 .hero-section__text-description {
-  width: 553px;
+  max-width: 553px;
   font-style: normal;
   font-size: 16px;
   line-height: 2;

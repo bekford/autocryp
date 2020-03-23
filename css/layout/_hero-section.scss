@@ -21,7 +21,7 @@
     }
 
     &__text-description {
-        width: 553px; // тот же вопрос
+        max-width: 553px; // тот же вопрос
         font-style: normal;
         font-size: 16px;
         line-height: 2;
