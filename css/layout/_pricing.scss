@@ -47,6 +47,25 @@
         padding-top: 4vw;
         padding-bottom: 3.1vw;
     }
+    @media (max-width: 900px) {
+        padding-top: 70px;
+        &__title {
+            font-size: 30px;
+        }
+        &__plan {
+            font-size: 12px;
+        }
+        &__plan-monthly {
+            padding: 10px 16px;
+        }
+        &__plan-yearly {
+            padding: 10px 15px 10px 20px;
+        }
+        &__tarif {
+            flex-direction: column;
+            align-items: center;
+        }
+    }
    
 }
 .background-card {

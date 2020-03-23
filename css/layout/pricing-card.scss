@@ -59,6 +59,12 @@
         border: none;
         font-size: 16px;
     }
+    @media (max-width: 900px) {
+        width: 100%;
+        &__list {
+            max-width: 100%;
+        }
+    }
 }
 .background-card {
     background: #FFFFFF;

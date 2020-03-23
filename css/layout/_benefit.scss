@@ -46,6 +46,26 @@
         width: 100%;
         height: auto;
     }
+    @media (max-width: 1177px) {
+        border-radius: 0;
+        top: 0;
+    }
+    @media (max-width: 900px) {
+
+        &__list {
+            display: flex;
+            flex-direction: column;
+        }
+        &__item-description {
+            width: 100%;
+        }
+        &__item {
+            padding-bottom: 70px;
+        }
+        &__item:last-child {
+            padding-bottom: 0;
+        }
+    }
 }
 
 hr {

@@ -50,12 +50,23 @@
         background: #FFFFFF;
         color: #5B6C94;
     }
+
     &__circles {
         display: flex;
         padding-bottom: 90px;
-      padding-left: 100px;
+        padding-left: 100px;
         padding-top: 100px;
-        
+
+    }
+
+    @media (max-width: 900px) {
+        max-width: 100%;
+        margin-right: 0;
+        margin-bottom: 15.45vw;
+        &__circles {
+            padding-top: 0;
+            padding-bottom: 15.45vw;
+        }
     }
 }
 
@@ -63,16 +74,16 @@
     display: flex;
     justify-content: flex-start;
     margin-left: -13vw;
-    
+
 }
 
 .card-background {
     display: flex;
     flex-direction: column;
-   padding-top: 15.45vw;
+    padding-top: 15.45vw;
     background: #313A5A;
-   width: 56.25%;
-    
+    width: 56.25%;
+
 }
 
 .black-autor {
@@ -81,4 +92,14 @@
 
 .green-qoutes {
     color: #1FDB84;
+}
+
+@media (max-width: 900px) {
+    .card-wrapper {
+        flex-direction: column;
+        margin-left: 0;
+    }
+    .card-background {
+        width: 100%;
+    }
 }
