@@ -20,13 +20,14 @@
   }
 
   @media (max-width: 900px) {
-    }
+    
     &__wrapper {
       flex-direction: column;
     }
     &__wrapper img:not(:last-child) {
       padding-bottom: 20px;
     }
+  }
 }
 
 .content {

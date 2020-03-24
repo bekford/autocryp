@@ -540,11 +540,13 @@ hr {
   display: flex;
   justify-content: space-around;
 }
-.partners__wrapper {
-  flex-direction: column;
-}
-.partners__wrapper img:not(:last-child) {
-  padding-bottom: 20px;
+@media (max-width: 900px) {
+  .partners__wrapper {
+    flex-direction: column;
+  }
+  .partners__wrapper img:not(:last-child) {
+    padding-bottom: 20px;
+  }
 }
 
 .content {
