@@ -1,12 +1,13 @@
 .testimonial-card {
-
     display: flex;
     max-width: 40%;
     border-radius: 6px;
     margin-right: 40px;
     padding-top: 80px;
     padding-bottom: 63px;
-
+    margin-left: -13vw;
+    overflow: visible;
+  
     &__content {
         display: flex;
         flex-direction: column;
@@ -83,7 +84,7 @@
     padding-top: 15.45vw;
     background: #313A5A;
     width: 56.25%;
-
+    
 }
 
 .black-autor {

@@ -434,6 +434,8 @@ hr {
   margin-right: 40px;
   padding-top: 80px;
   padding-bottom: 63px;
+  margin-left: -13vw;
+  overflow: visible;
 }
 .testimonial-card__content {
   display: flex;
