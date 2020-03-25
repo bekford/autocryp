@@ -1,12 +1,14 @@
 .testimonial-card {
     display: flex;
-    max-width: 40%;
+   // max-width: 40%;
     border-radius: 6px;
     margin-right: 40px;
     padding-top: 80px;
     padding-bottom: 63px;
-    margin-left: -13vw;
+   // margin-left: -13vw;
     overflow: visible;
+    margin: -40px;
+
   
     &__content {
         display: flex;
@@ -31,7 +33,7 @@
     &__singature {
         display: flex;
         justify-content: flex-start;
-        margin-top: auto;
+        margin-bottom: auto;
         padding-top: 42px;
     }
 

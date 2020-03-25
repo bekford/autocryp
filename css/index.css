@@ -429,13 +429,12 @@ hr {
 
 .testimonial-card {
   display: flex;
-  max-width: 40%;
   border-radius: 6px;
   margin-right: 40px;
   padding-top: 80px;
   padding-bottom: 63px;
-  margin-left: -13vw;
   overflow: visible;
+  margin: -40px;
 }
 .testimonial-card__content {
   display: flex;
@@ -457,7 +456,7 @@ hr {
 .testimonial-card__singature {
   display: flex;
   justify-content: flex-start;
-  margin-top: auto;
+  margin-bottom: auto;
   padding-top: 42px;
 }
 .testimonial-card__singature-autor {
