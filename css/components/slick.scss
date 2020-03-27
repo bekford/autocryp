@@ -40,34 +40,23 @@
 }
 
 .slick-track {
+    display: flex;
     position: relative;
     left: 0;
     top: 0;
-    display: block;
     margin-left: auto;
     margin-right: auto;
 
-    &:before,
-    &:after {
-        content: "";
-        display: table;
-    }
-
-    &:after {
-        clear: both;
-    }
-
+   
     .slick-loading & {
         visibility: hidden;
     }
 }
 .slick-slide {
-    float: left;
-    height: 100%;
     min-height: 1px;
-    [dir="rtl"] & {
-        float: right;
-    }
+    padding: 40px;
+    display: flex !important;
+    justify-content: space-between;
     img {
         display: block;
     }
@@ -97,4 +86,8 @@
 }
 .slick-arrow.slick-hidden {
     display: none;
+}
+.slick-slide > div {
+    display: flex;
+    
 }
