@@ -14,6 +14,11 @@
     touch-action: pan-y;
     -webkit-tap-highlight-color: transparent;
 }
+.slick-slider .testimonial-card {
+    box-shadow: 12px 12px 40px rgba(121, 121, 121, 0.3);
+    background: #FFFFFF;
+    color: #5B6C94;
+}
 .slick-list {
     position: relative;
     overflow: hidden;
@@ -46,7 +51,7 @@
     top: 0;
     margin-left: auto;
     margin-right: auto;
-
+    padding-bottom: 60px;
    
     .slick-loading & {
         visibility: hidden;
@@ -55,8 +60,12 @@
 .slick-slide {
     min-height: 1px;
     padding: 40px;
+    
     display: flex !important;
     justify-content: space-between;
+
+   
+    
     img {
         display: block;
     }
@@ -72,6 +81,7 @@
 
     .slick-initialized & {
         display: block;
+        
     }
 
     .slick-loading & {
@@ -90,4 +100,10 @@
 .slick-slide > div {
     display: flex;
     
+}
+
+.slick-current .testimonial-card {
+    background-color: #1FDB84;
+    box-shadow: 12px 12px 40px rgba(31, 219, 132, 0.5);
+    color: #FFFFFF;
 }
