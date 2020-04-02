@@ -434,6 +434,9 @@ hr {
   padding-top: 80px;
   padding-bottom: 63px;
   overflow: visible;
+  box-shadow: 12px 12px 40px rgba(121, 121, 121, 0.3);
+  background: #FFFFFF;
+  color: #5B6C94;
 }
 .testimonial-card__content {
   display: flex;
@@ -487,6 +490,11 @@ hr {
     padding-bottom: 15.45vw;
   }
 }
+.slick-current .testimonial-card {
+  background-color: #1FDB84;
+  box-shadow: 12px 12px 40px rgba(31, 219, 132, 0.5);
+  color: #FFFFFF;
+}
 
 .card-wrapper {
   display: flex;
@@ -504,6 +512,13 @@ hr {
 
 .black-autor {
   color: #031D5B;
+}
+
+.autor {
+  color: #031D5B;
+}
+.slick-current .autor {
+  color: white;
 }
 
 .green-qoutes {
@@ -626,12 +641,6 @@ html {
   -webkit-tap-highlight-color: transparent;
 }
 
-.slick-slider .testimonial-card {
-  box-shadow: 12px 12px 40px rgba(121, 121, 121, 0.3);
-  background: #FFFFFF;
-  color: #5B6C94;
-}
-
 .slick-list {
   position: relative;
   overflow: hidden;
@@ -705,12 +714,15 @@ html {
   display: flex;
 }
 
+/*
 .slick-current .testimonial-card {
-  background-color: #1FDB84;
-  box-shadow: 12px 12px 40px rgba(31, 219, 132, 0.5);
-  color: #FFFFFF;
+    background-color: #1FDB84;
+    box-shadow: 12px 12px 40px rgba(31, 219, 132, 0.5);
+    color: #FFFFFF;
 }
-
+.slick-current .autor {
+    color: white;
+}*/
 /* Slider */
 .slick-loading .slick-list {
   background: #fff url("./ajax-loader.gif") center center no-repeat;
@@ -828,23 +840,16 @@ html {
   border: 3px solid white;
   border-radius: 50%;
   margin-right: 16px;
-  background: transparent;
   display: block;
   color: transparent;
   cursor: pointer;
-  background-color: white;
+  background-color: #313A5A;
 }
 .slick-dots li button:hover, .slick-dots li button:focus {
   outline: none;
 }
 .slick-dots li button:hover:before, .slick-dots li button:focus:before {
   opacity: 1;
-}
-.slick-dots li button:indeterminate {
-  background-color: white;
-}
-.slick-dots li button:active {
-  background-color: #313A5A;
 }
 .slick-dots li button:before {
   position: absolute;
@@ -859,6 +864,9 @@ html {
   opacity: 0.25;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+.slick-dots li.slick-active button {
+  background-color: white;
 }
 
 /*# sourceMappingURL=index.css.map */

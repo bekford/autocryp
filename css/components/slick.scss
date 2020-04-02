@@ -14,11 +14,7 @@
     touch-action: pan-y;
     -webkit-tap-highlight-color: transparent;
 }
-.slick-slider .testimonial-card {
-    box-shadow: 12px 12px 40px rgba(121, 121, 121, 0.3);
-    background: #FFFFFF;
-    color: #5B6C94;
-}
+
 .slick-list {
     position: relative;
     overflow: hidden;
@@ -101,9 +97,12 @@
     display: flex;
     
 }
-
+/*
 .slick-current .testimonial-card {
     background-color: #1FDB84;
     box-shadow: 12px 12px 40px rgba(31, 219, 132, 0.5);
     color: #FFFFFF;
 }
+.slick-current .autor {
+    color: white;
+}*/

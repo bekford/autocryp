@@ -10,6 +10,10 @@
    // margin: -40px;
    //justify-content: space-between;
   // align-content: space-between;
+  box-shadow: 12px 12px 40px rgba(121, 121, 121, 0.3);
+   background: #FFFFFF;
+   color: #5B6C94;
+   
     &__content {
         display: flex;
         flex-direction: column;
@@ -18,6 +22,8 @@
         padding-right: 60px;
        // justify-content: space-between;
    //    align-content: space-between;
+   
+
    
     }
 
@@ -75,7 +81,13 @@
             padding-bottom: 15.45vw;
         }
     }
+    .slick-current & {
+        background-color: #1FDB84;
+        box-shadow: 12px 12px 40px rgba(31, 219, 132, 0.5);
+        color: #FFFFFF;
+    }
 }
+
 
 .card-wrapper {
     display: flex;
@@ -95,6 +107,12 @@
 
 .black-autor {
     color: #031D5B;
+}
+.autor {
+    color: #031D5B;
+    .slick-current & {
+        color: white;
+    }
 }
 
 .green-qoutes {
@@ -117,4 +135,13 @@
     background: #313A5A;
    // width: 56.25%;
     
+}
+
+.slick-current {
+    & .testimonial-card {
+        
+    }
+    & .autor {
+        
+    }
 }
