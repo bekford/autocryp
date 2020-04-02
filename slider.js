@@ -4,6 +4,10 @@ $('.responsive').slick({
     speed: 300,
     slidesToShow: 3,
     slidesToScroll: 3,
+
+    //centerMode: true,
+    //centerPadding: '40px',
+    
   //  Arrows: true,
     //appendArrows: '.circles',
     //variableWidth: true,

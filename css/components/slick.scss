@@ -1,8 +1,16 @@
 /* Slider */
 
+/*.slider {
+    position: absolute;
+    margin-left: -13vw;
+}*/
+
+
+
 .slick-slider {
     position: relative;
-    display: block;
+    display: flex;
+  //  justify-content: space-around;
     box-sizing: border-box;
     -webkit-touch-callout: none;
     -webkit-user-select: none;
@@ -13,6 +21,7 @@
     -ms-touch-action: pan-y;
     touch-action: pan-y;
     -webkit-tap-highlight-color: transparent;
+    margin-left: -13vw;
 }
 
 .slick-list {
@@ -21,7 +30,7 @@
     display: block;
     margin: 0;
     padding: 0;
-
+    
     &:focus {
         outline: none;
     }
