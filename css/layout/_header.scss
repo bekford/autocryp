@@ -6,12 +6,13 @@
     position: fixed;
     color: white;
     z-index: 3;
-    //margin-top: 25px; пока не сделал
+   padding-top: 12px; 
+   padding-bottom: 12px;
    
     &__wrapper {
         display: flex;
         justify-content: space-between;
-        align-items: baseline; 
+        align-items: center; 
     }
     &__company {
         font-size: 26px;
@@ -25,7 +26,6 @@
         left: 50%;
         top: 50%;
         transform: translate(-50%,-50%);
-     //   width: auto;
     }
     &__nav-link {
         font-size: 16px;

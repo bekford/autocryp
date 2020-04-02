@@ -3,6 +3,7 @@
     justify-content: space-between;
     position: relative;
     padding-top: 15.45vw;
+    overflow: hidden;
 
     &__title {
         max-width: 36%;
@@ -28,6 +29,20 @@
 
     &__card:after {
         margin-right: 0;
+    }
+    @media (max-width: 900px) {
+        flex-direction: column;
+        &__title {
+            font-size: 40px;
+            padding-top: 0px;
+            top: 5%;
+        }
+        &__quotes {
+            padding-right: 0vw;
+            padding-left: 10vw;
+            padding-top: 0px;
+            max-width: 100%;
+        }
     }
 }
 

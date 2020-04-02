@@ -25,13 +25,13 @@
         line-height: 1.1875;
         font-weight: 500;
         border: 1px solid #AEFDD9;
-       // margin-top: 60px; заменил на паддинг в title
-      //  margin-bottom: 60px;
+        
     }
     &__plan-monthly {
         color: #6FDEAA;
         background: #FFFFFF;
         padding: 20px 36px;
+        border-radius: 5px 0px 0px 5px;
     }
     &__plan-yearly {
         color: #6FDEAA;
@@ -39,12 +39,32 @@
         padding: 21px 31px 20px 43px;
         background: #F1FFF8;
         border-left: 1px solid #AEFDD9;
+        border-radius: 0px 5px 5px 0px;
     }
     &__tarif {
         display: flex;
         justify-content: space-between;
-        padding-top: 2vw;
+        padding-top: 4vw;
         padding-bottom: 3.1vw;
+    }
+    @media (max-width: 900px) {
+        padding-top: 70px;
+        &__title {
+            font-size: 30px;
+        }
+        &__plan {
+            font-size: 12px;
+        }
+        &__plan-monthly {
+            padding: 10px 16px;
+        }
+        &__plan-yearly {
+            padding: 10px 15px 10px 20px;
+        }
+        &__tarif {
+            flex-direction: column;
+            align-items: center;
+        }
     }
    
 }

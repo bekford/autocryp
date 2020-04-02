@@ -11,6 +11,9 @@
   &--small {
     padding: 4px 24.5px 2px 26.5px;
   }
+  @media (max-width: 900px) {
+    //padding: 10px 23px;
+  }
 }
 .button:hover {
   background: rgb(23, 170, 102);

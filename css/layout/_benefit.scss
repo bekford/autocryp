@@ -10,8 +10,8 @@
     &__list {
         display: flex;
         justify-content: space-around;
-        padding-top: 66px;
-        padding-bottom: 88px;
+        padding-top: 70px;
+        padding-bottom: 70px;
     }
 
     &__item-image {
@@ -46,12 +46,31 @@
         width: 100%;
         height: auto;
     }
+    @media (max-width: 1177px) {
+        border-radius: 0;
+        top: 0;
+    }
+    @media (max-width: 900px) {
+
+        &__list {
+            display: flex;
+            flex-direction: column;
+        }
+        &__item-description {
+            width: 100%;
+        }
+        &__item {
+            padding-bottom: 70px;
+        }
+        &__item:last-child {
+            padding-bottom: 0;
+        }
+    }
 }
 
 hr {
     background-color: #1FDB84;
     color: #1FDB84;
-    //    margin-left: 0;   убрал
     height: 4px;
     width: 60px;
     border: none;
