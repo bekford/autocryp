@@ -801,13 +801,14 @@ html {
 }
 
 .slick-dots {
+  position: absolute;
   bottom: -25px;
   list-style: none;
   text-align: center;
   padding: 0;
   margin: 0;
-  width: 100%;
   padding-bottom: 90px;
+  margin-left: 20vw;
 }
 .slick-dots li {
   position: relative;
