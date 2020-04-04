@@ -23,6 +23,8 @@
     -webkit-tap-highlight-color: transparent;
     margin-left: -15vw;
     padding-top: 12.5vw;
+   
+    
 }
 
 .slick-list {
@@ -31,7 +33,7 @@
     display: block;
     margin: 0;
     padding: 10px;
-    
+
     
     &:focus {
         outline: none;
@@ -66,7 +68,7 @@
 }
 .slick-slide {
     min-height: 1px;
-    padding: 40px;
+    margin: 40px;
     
     display: flex !important;
     justify-content: space-between;
