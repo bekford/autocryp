@@ -605,13 +605,12 @@ html {
 
   }*/
 /* Slider */
-/*.slider {
-    position: absolute;
-    margin-left: -13vw;
-}*/
+.responsive {
+  display: flex;
+}
+
 .slick-slider {
   position: relative;
-  display: flex;
   box-sizing: border-box;
   -webkit-touch-callout: none;
   -webkit-user-select: none;
@@ -622,7 +621,8 @@ html {
   -ms-touch-action: pan-y;
   touch-action: pan-y;
   -webkit-tap-highlight-color: transparent;
-  margin-left: -17vw;
+  margin-left: -15vw;
+  padding-top: 12.5vw;
 }
 
 .slick-list {
@@ -698,15 +698,6 @@ html {
   display: flex;
 }
 
-/*
-.slick-current .testimonial-card {
-    background-color: #1FDB84;
-    box-shadow: 12px 12px 40px rgba(31, 219, 132, 0.5);
-    color: #FFFFFF;
-}
-.slick-current .autor {
-    color: white;
-}*/
 /* Slider */
 .slick-loading .slick-list {
   background: #fff url("./ajax-loader.gif") center center no-repeat;
