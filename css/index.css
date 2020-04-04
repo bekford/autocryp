@@ -442,6 +442,16 @@ hr {
   padding-right: 9px;
   font-weight: 500;
 }
+.testimonial-card--selected {
+  background-color: #1FDB84;
+  box-shadow: 12px 12px 40px rgba(31, 219, 132, 0.5);
+  color: #FFFFFF;
+}
+.testimonial-card--not-selected {
+  box-shadow: 12px 12px 40px rgba(121, 121, 121, 0.3);
+  background: #FFFFFF;
+  color: #5B6C94;
+}
 .testimonial-card__circles {
   display: flex;
   padding-bottom: 90px;
@@ -468,7 +478,26 @@ hr {
 .card-wrapper {
   display: flex;
   justify-content: flex-start;
-  margin-left: -23vw;
+  margin-left: -13vw;
+}
+
+.card-background {
+  display: flex;
+  flex-direction: column;
+  padding-top: 15.45vw;
+  background: #313A5A;
+  width: 56.25%;
+}
+
+.black-autor {
+  color: #031D5B;
+}
+
+.autor {
+  color: #031D5B;
+}
+.slick-current .autor {
+  color: white;
 }
 
 .green-qoutes {
@@ -485,6 +514,10 @@ hr {
     width: 100%;
   }
 }
+.card-background-for-test {
+  background: #313A5A;
+}
+
 .partners {
   flex: 0 0 auto;
   padding-bottom: 80px;
@@ -572,12 +605,13 @@ html {
 
   }*/
 /* Slider */
-.responsive {
-  display: flex;
-}
-
+/*.slider {
+    position: absolute;
+    margin-left: -13vw;
+}*/
 .slick-slider {
   position: relative;
+  display: flex;
   box-sizing: border-box;
   -webkit-touch-callout: none;
   -webkit-user-select: none;
@@ -588,8 +622,7 @@ html {
   -ms-touch-action: pan-y;
   touch-action: pan-y;
   -webkit-tap-highlight-color: transparent;
-  margin-left: -15vw;
-  padding-top: 12.5vw;
+  margin-left: -17vw;
 }
 
 .slick-list {
@@ -665,6 +698,15 @@ html {
   display: flex;
 }
 
+/*
+.slick-current .testimonial-card {
+    background-color: #1FDB84;
+    box-shadow: 12px 12px 40px rgba(31, 219, 132, 0.5);
+    color: #FFFFFF;
+}
+.slick-current .autor {
+    color: white;
+}*/
 /* Slider */
 .slick-loading .slick-list {
   background: #fff url("./ajax-loader.gif") center center no-repeat;
@@ -759,14 +801,13 @@ html {
 }
 
 .slick-dots {
-  position: absolute;
   bottom: -25px;
   list-style: none;
   text-align: center;
   padding: 0;
   margin: 0;
+  width: 100%;
   padding-bottom: 90px;
-  margin-left: 20vw;
 }
 .slick-dots li {
   position: relative;
