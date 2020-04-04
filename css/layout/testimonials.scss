@@ -1,27 +1,28 @@
 .testimonials {
-    display: flex;
-    justify-content: space-between;
+    display: block;
+   // justify-content: space-between;
     position: relative;
     margin-top: 15.45vw;
     overflow: hidden;
     background: linear-gradient(to left, #313A5A 56.25%, #F2F2F2 0);
+    
     &__title {
-        max-width: 36%;
+        max-width: 31%;
         position: absolute;
         color: #031D5B;
         font-weight: 500;
         font-size: 40px;
         line-height: 1.2;
         //padding-bottom: 50px;
-        padding-left: 17vw;
+        padding-left: 11.5vw;
         left: 0;
-        top: 10%;
+        top: 5%;
     }
 
     &__quotes {
         padding-right: 7vw;
         color: rgba(31, 219, 132, 0.1);
-        padding-left: 15vw;
+        padding-left: 10vw;
         padding-top: 30px;
 
     }

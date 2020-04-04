@@ -155,12 +155,13 @@ $slick-opacity-not-active: 0.25 !default;
     bottom: -25px;
     list-style: none;
     text-align: center;
-    padding: 0;
-    margin: 0;
+    //padding: 0;
+   // margin: 0;
   //  width: 100%;
-    padding-bottom: 90px;
-    margin-left: 20vw;
-    //padding-top: ;
+   // padding-bottom: 90px;
+    margin-left: 25vw;
+   //margin-top: 100px; 
+    
     li {
         position: relative;
         display: inline-block;

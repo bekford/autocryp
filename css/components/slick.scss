@@ -4,6 +4,7 @@
 .responsive {
     display: flex;
   //  justify-content: space-around;
+  transform: translate(440px, -220px);
     
 }
 
@@ -21,8 +22,8 @@
     -ms-touch-action: pan-y;
     touch-action: pan-y;
     -webkit-tap-highlight-color: transparent;
-    margin-left: -15vw;
-    padding-top: 12.5vw;
+   // margin-left: -15vw;
+    //padding-top: 12.5vw;
    
     
 }
@@ -32,7 +33,7 @@
     overflow: hidden;
     display: block;
     margin: 0;
-    padding: 10px;
+    padding: 10px 10px 10px 0;
 
     
     &:focus {
@@ -60,7 +61,7 @@
     top: 0;
     margin-left: auto;
     margin-right: auto;
-    padding-bottom: 60px;
+    padding-bottom: 90px;
    
     .slick-loading & {
         visibility: hidden;
@@ -68,7 +69,7 @@
 }
 .slick-slide {
     min-height: 1px;
-    margin: 40px;
+    margin: 20px;
     
     display: flex !important;
     justify-content: space-between;
