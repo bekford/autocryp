@@ -3,14 +3,14 @@ $('.responsive').slick({
     infinite: false,
     speed: 300,
     slidesToShow: 3,
-    slidesToScroll: 3,
+    slidesToScroll: 1,
 
     //centerMode: true,
     //centerPadding: '40px',
     
   //  Arrows: true,
     //appendArrows: '.circles',
-    //variableWidth: true,
+    variableWidth: true,
     //prevArrow: '.circle',
    // appendArrows: $('.circle'),
    // prevArrow: '<button id="prev" type="button" class="btn btn-juliet"><i class="fa fa-chevron-left" aria-hidden="true"></i>2</button>',
