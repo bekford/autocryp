@@ -574,7 +574,7 @@ html {
 /* Slider */
 .responsive {
   display: flex;
-  transform: translate(440px, -220px);
+  transform: translate(550px, -220px);
 }
 
 .slick-slider {
@@ -757,7 +757,7 @@ html {
   bottom: -25px;
   list-style: none;
   text-align: center;
-  margin-left: 25vw;
+  margin-left: 19vw;
   bottom: -100px;
 }
 .slick-dots li {
