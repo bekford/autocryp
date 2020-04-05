@@ -292,7 +292,6 @@ hr {
   margin-top: 15.45vw;
   overflow: hidden;
   background: linear-gradient(to left, #313A5A 56.25%, #F2F2F2 0);
-  height: 970px;
 }
 .testimonials__title {
   max-width: 31%;
@@ -413,7 +412,7 @@ hr {
   padding-top: 80px;
   padding-bottom: 63px;
   overflow: visible;
-  box-shadow: 12px 12px 40px rgba(121, 121, 121, 0.3);
+  box-shadow: 12px 12px 40px rgba(121, 121, 121, 0.5);
   backdrop-filter: blur(27.1828px);
   background: rgba(255, 255, 255, 0.95);
   color: #5B6C94;
@@ -460,7 +459,6 @@ hr {
   box-shadow: 12px 12px 40px rgba(31, 219, 132, 0.5);
   backdrop-filter: blur(27.1828px);
   color: #FFFFFF;
-  border-radius: 6px;
 }
 .slick-current .testimonial-card__singature-author {
   color: #FFFFFF;
@@ -598,7 +596,7 @@ html {
   overflow: hidden;
   display: block;
   margin: 0;
-  padding: 10px 10px 10px 0;
+  padding: 10px 10px 30px 0;
 }
 .slick-list:focus {
   outline: none;
@@ -624,7 +622,6 @@ html {
   top: 0;
   margin-left: auto;
   margin-right: auto;
-  padding-bottom: 80px;
 }
 .slick-loading .slick-track {
   visibility: hidden;
@@ -755,16 +752,13 @@ html {
 }
 
 /* Dots */
-.slick-dotted.slick-slider {
-  margin-bottom: 30px;
-}
-
 .slick-dots {
   position: absolute;
   bottom: -25px;
   list-style: none;
   text-align: center;
   margin-left: 25vw;
+  bottom: -100px;
 }
 .slick-dots li {
   position: relative;
