@@ -292,6 +292,7 @@ hr {
   margin-top: 15.45vw;
   overflow: hidden;
   background: linear-gradient(to left, #313A5A 56.25%, #F2F2F2 0);
+  height: 970px;
 }
 .testimonials__title {
   max-width: 31%;
@@ -438,9 +439,10 @@ hr {
   padding-top: 42px;
   margin-top: auto;
 }
-.testimonial-card__singature-autor {
+.testimonial-card__singature-author {
   padding-right: 9px;
   font-weight: 500;
+  color: #031D5B;
 }
 @media (max-width: 900px) {
   .testimonial-card {
@@ -456,8 +458,12 @@ hr {
 .slick-current .testimonial-card {
   background-color: #1FDB84;
   box-shadow: 12px 12px 40px rgba(31, 219, 132, 0.5);
-  color: #FFFFFF;
   backdrop-filter: blur(27.1828px);
+  color: #FFFFFF;
+  border-radius: 6px;
+}
+.slick-current .testimonial-card__singature-author {
+  color: #FFFFFF;
 }
 
 .card-wrapper {
@@ -618,7 +624,7 @@ html {
   top: 0;
   margin-left: auto;
   margin-right: auto;
-  padding-bottom: 90px;
+  padding-bottom: 80px;
 }
 .slick-loading .slick-track {
   visibility: hidden;

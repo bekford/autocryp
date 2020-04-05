@@ -34,9 +34,10 @@
         margin-top: auto;
     }
 
-    &__singature-autor {
+    &__singature-author {
         padding-right: 9px;
         font-weight: 500;
+        color: #031D5B;
     }
 
     @media (max-width: 900px) {
@@ -53,20 +54,21 @@
     .slick-current & {
         background-color: #1FDB84;
         box-shadow: 12px 12px 40px rgba(31, 219, 132, 0.5);
-        color: #FFFFFF;
         backdrop-filter: blur(27.1828px); // ?
+        color: #FFFFFF;
+        border-radius: 6px;
+        
+    }
+    .slick-current &__singature-author {
+        color: #FFFFFF;
     }
 }
-
 
 .card-wrapper {
     display: flex;
     justify-content: flex-start;
     margin-left: -23vw;
-
-
 }
-
 
 .green-qoutes {
     color: #1FDB84;
@@ -81,13 +83,4 @@
     .card-background {
         width: 100%;
     }
-}
-
-.card-background-for-test {
-    //  display: flex;
-    //  flex-direction: column;
-    // padding-top: 15.45vw;
-    // background: #313A5A;
-    // width: 56.25%;
-
 }
