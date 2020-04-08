@@ -3,8 +3,8 @@
 
 .responsive {
     display: flex;
-    transform: translate(550px, -220px);
-    
+    transform: translate(550px, -220px); 
+  
 }
 
 .slick-slider {
@@ -109,4 +109,15 @@
 .slick-slide>div {
     display: flex;
 
+}
+
+@media (max-width: 900px) {
+    .responsive {
+        transform: none;
+        flex-direction: column-reverse;
+        background: #313A5A;
+    } 
+    .slick-slide {
+        justify-content: space-around;
+    } 
 }

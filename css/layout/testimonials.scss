@@ -4,8 +4,6 @@
     margin-top: 15.45vw;
     overflow: hidden;
     background: linear-gradient(to left, #313A5A 56.25%, #F2F2F2 0);
-    //height: 970px;
-   //max-height: 80%;
 
     
     &__title {
@@ -32,15 +30,22 @@
         margin-right: 0;
     }
     @media (max-width: 900px) {
-        flex-direction: column;
+        background: #F2F2F2;
+
         &__title {
+            max-width: 45%;
+            left: 24%;
             font-size: 40px;
             padding-top: 0px;
             top: 5%;
+            padding-left: 0;
         }
         &__quotes {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
             padding-right: 0vw;
-            padding-left: 10vw;
+            padding-left: 0;
             padding-top: 0px;
             max-width: 100%;
         }

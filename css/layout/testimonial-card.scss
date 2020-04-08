@@ -1,11 +1,12 @@
 .testimonial-card {
     display: flex !important;
+   // justify-content: space-between;
     border-radius: 6px;
     padding-top: 80px;
     padding-bottom: 63px;
     overflow: visible;
-    box-shadow: 12px 12px 40px rgba(121, 121, 121, 0.5);
-    backdrop-filter: blur(27.1828px);
+    box-shadow: 12px 12px 20px rgba(224, 218, 218, 0.2);
+    //backdrop-filter: blur(27.1828px);
     background: rgba(255, 255, 255, 0.95);
     color: #5B6C94;
 
@@ -41,19 +42,15 @@
     }
 
     @media (max-width: 900px) {
-        max-width: 100%;
-        margin-right: 0;
+      //  max-width: 100%;
+       // margin-right: 0;
         margin-bottom: 15.45vw;
-
-        &__circles {
-            padding-top: 0;
-            padding-bottom: 15.45vw;
-        }
+        width: 100%;
     }
 
     .slick-current & {
         background-color: #1FDB84;
-        box-shadow: 12px 12px 40px rgba(31, 219, 132, 0.5);
+        box-shadow: 12px 12px 40px rgba(31, 219, 132, 0.2);
         backdrop-filter: blur(27.1828px); // ?
         color: #FFFFFF;
         
