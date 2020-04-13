@@ -1,7 +1,7 @@
 .footer {
     flex: 0 0 auto;
     text-align: center;
-    color: #5B6C94;
+    color: $footer-text-color;
     font-size: 16px;
     line-height: 2;
     padding-bottom: 114px;
@@ -12,7 +12,7 @@
 
     &__nav-link {
         text-decoration: none;
-        color: #5B6C94;
+        color: $footer-text-color;
 
     }
 

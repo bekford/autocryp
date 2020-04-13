@@ -1,6 +1,6 @@
 .hero-section {
-    background: #313A5A;
-    color: #FFFFFF;
+    background: $hero-section-bg-color;
+    color: $hero-section-text-color;
 
     &__wrapper {
         display: flex;

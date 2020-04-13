@@ -114,8 +114,9 @@
 @media (max-width: 900px) {
     .responsive {
         transform: none;
-        flex-direction: column-reverse;
+        //flex-direction: column-reverse;
         background: #313A5A;
+        margin-top: 20px;
     } 
     .slick-slide {
         justify-content: space-around;

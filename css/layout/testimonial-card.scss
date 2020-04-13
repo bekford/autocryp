@@ -1,14 +1,15 @@
 .testimonial-card {
     display: flex !important;
-   // justify-content: space-between;
     border-radius: 6px;
     padding-top: 80px;
     padding-bottom: 63px;
     overflow: visible;
     box-shadow: 12px 12px 20px rgba(224, 218, 218, 0.2);
-    //backdrop-filter: blur(27.1828px);
-    background: rgba(255, 255, 255, 0.95);
-    color: #5B6C94;
+    background: $testimonial-unactive-card-bg-color;
+    color: $testimonial-unactive-card-text-color;
+    transition: background-color 0.3s,
+        box-shadow 0.3s,
+        color 0.3s;
 
     &__content {
         display: flex;
@@ -38,7 +39,8 @@
     &__singature-author {
         padding-right: 9px;
         font-weight: 500;
-        color: #031D5B;
+        color: $gulf-blue;
+        transition: color 0.3s;
     }
 
     @media (max-width: 900px) {
@@ -46,18 +48,20 @@
        // margin-right: 0;
         margin-bottom: 15.45vw;
         width: 100%;
+        margin-top: 20px;
     }
 
     .slick-current & {
-        background-color: #1FDB84;
+        background-color: $testimonial-active-card-bg-color;
         box-shadow: 12px 12px 40px rgba(31, 219, 132, 0.2);
-        backdrop-filter: blur(27.1828px); // ?
-        color: #FFFFFF;
-        
+        color: $testimonial-active-card-color;
+        transition: background-color 0.3s,
+        box-shadow 0.3s,
+        color 0.3s;
         
     }
     .slick-current &__singature-author {
-        color: #FFFFFF;
+        color: $testimonial-active-card-color;
     }
 }
 
@@ -68,7 +72,7 @@
 }
 
 .green-qoutes {
-    color: #1FDB84;
+    color: $testimonial-active-card-quotes-color;
 }
 
 @media (max-width: 900px) {

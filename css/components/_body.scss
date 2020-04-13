@@ -7,15 +7,13 @@
 body {
   height: 4350px;
   margin: 0;
-  font-family: 'Rubik', sans-serif;
+  font-family: $rubik;
   overflow-x: hidden;
   height: 100%; 
-  background: #F2F2F2;
+  background: $body-bg-color;
 }
 
 html {
   height: 100%;
-
-
 }
 

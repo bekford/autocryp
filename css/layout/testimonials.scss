@@ -3,13 +3,13 @@
     position: relative;
     margin-top: 15.45vw;
     overflow: hidden;
-    background: linear-gradient(to left, #313A5A 56.25%, #F2F2F2 0);
+    background: linear-gradient(to left, $testimonial-bg-slider-color 56.25%, $testimonial-bg-color 0);
 
     
     &__title {
         max-width: 31%;
         position: absolute;
-        color: #031D5B;
+        color: $testimonial-title-color;
         font-weight: 500;
         font-size: 40px;
         line-height: 1.2;
@@ -30,7 +30,7 @@
         margin-right: 0;
     }
     @media (max-width: 900px) {
-        background: #F2F2F2;
+        background: $testimonial-bg-small-width;
 
         &__title {
             max-width: 45%;
