@@ -10,9 +10,7 @@
         max-width: 31%;
         position: absolute;
         color: $testimonial-title-color;
-        font-weight: 500;
-        font-size: 40px;
-        line-height: 1.2;
+        @include text-settings($font-h2, 500, 1.2);
         padding-left: 11.5vw;
         left: 0;
         top: 5%;

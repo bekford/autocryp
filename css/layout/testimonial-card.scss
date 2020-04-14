@@ -24,8 +24,7 @@
     }
 
     &__text {
-        font-size: 18px;
-        line-height: 2;
+        @include text-settings($font-size: 18px, $line-height: 2);
         width: 310px;
         padding-top: 23px;
     }

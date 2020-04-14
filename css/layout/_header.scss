@@ -10,20 +10,19 @@
     padding-bottom: 12px;
 
     &__wrapper {
-        display: flex;
-        justify-content: space-between;
+        @include flex-space-between;
         align-items: center;
     }
 
     &__company {
-        font-size: 26px;
-        line-height: 2.23;
-        font-weight: 500;
+        @include text-settings(26px, 500, 2.23);
+        //font-size: 26px;
+        //line-height: 2.23;
+        //font-weight: 500;
     }
 
     &__nav {
-        display: flex;
-        justify-content: space-between;
+        @include flex-space-between;
         position: absolute;
         left: 50%;
         top: 50%;
@@ -31,6 +30,7 @@
     }
 
     &__nav-link {
+        @include text-settings();
         font-size: 16px;
         margin-left: 37.5px;
     }
@@ -46,8 +46,7 @@
 
     &__left-register {
         display: block;
-        font-size: 16px;
-        line-height: 2;
+        @include text-settings($font-weight: 500, $line-height: 2);
         margin-left: 38.5px;
     }
 }

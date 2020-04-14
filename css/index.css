@@ -326,8 +326,8 @@ html {
 }
 .header__company {
   font-size: 26px;
-  line-height: 2.23;
   font-weight: 500;
+  line-height: 2.23;
 }
 .header__nav {
   display: flex;
@@ -338,6 +338,9 @@ html {
   transform: translate(-50%, -50%);
 }
 .header__nav-link {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: normal;
   font-size: 16px;
   margin-left: 37.5px;
 }
@@ -351,6 +354,7 @@ html {
 .header__left-register {
   display: block;
   font-size: 16px;
+  font-weight: 500;
   line-height: 2;
   margin-left: 38.5px;
 }
@@ -371,17 +375,16 @@ header + nav {
   align-self: center;
 }
 .hero-section__text-title {
-  font-style: normal;
-  font-weight: 500;
   font-size: 48px;
+  font-weight: 500;
   line-height: 1.1875;
   max-width: 500px;
   padding-bottom: 40px;
 }
 .hero-section__text-description {
   max-width: 553px;
-  font-style: normal;
   font-size: 16px;
+  font-weight: 400;
   line-height: 2;
   padding-bottom: 35px;
 }
@@ -430,14 +433,15 @@ header + nav {
 .benefits__item-heading {
   color: #031D5B;
   padding-top: 26px;
-  font-weight: 500;
   font-size: 18px;
+  font-weight: 500;
   line-height: 1.166;
 }
 .benefits__item-description {
   width: 300px;
   color: #5B6C94;
   font-size: 16px;
+  font-weight: 400;
   line-height: 2;
 }
 .benefits__item-image + img {
@@ -483,8 +487,8 @@ hr {
   margin-left: auto;
   margin-right: auto;
   font-size: 40px;
-  line-height: 1.6;
   font-weight: 500;
+  line-height: 1.6;
   color: #32325C;
   text-align: center;
   width: 65%;
@@ -496,12 +500,12 @@ hr {
 }
 .pricing__plan {
   display: flex;
-  align-items: baseline;
   justify-content: space-between;
+  align-items: baseline;
   border-radius: 5px;
   font-size: 16px;
-  line-height: 1.1875;
   font-weight: 500;
+  line-height: 1.1875;
   border: 1px solid #AEFDD9;
 }
 .pricing__plan-monthly {
@@ -564,15 +568,15 @@ hr {
 .pricing-card__plan {
   font-size: 24px;
   font-weight: 500;
-  letter-spacing: 2px;
   line-height: 1.33;
+  letter-spacing: 2px;
   padding-bottom: 31px;
   color: #32325C;
 }
 .pricing-card__title {
   display: flex;
-  flex-direction: column;
   justify-content: space-between;
+  flex-direction: column;
 }
 .pricing-card__tarif {
   display: flex;
@@ -593,6 +597,9 @@ hr {
   align-items: center;
   color: #5B6C94;
   letter-spacing: 0.1px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.75;
   font-size: 16px;
   line-height: 1.75;
   max-width: 50%;
@@ -633,8 +640,8 @@ hr {
   max-width: 31%;
   position: absolute;
   color: #031D5B;
-  font-weight: 500;
   font-size: 40px;
+  font-weight: 500;
   line-height: 1.2;
   padding-left: 11.5vw;
   left: 0;
@@ -695,6 +702,7 @@ hr {
 }
 .testimonial-card__text {
   font-size: 18px;
+  font-weight: 400;
   line-height: 2;
   width: 310px;
   padding-top: 23px;
@@ -757,8 +765,8 @@ hr {
   text-align: center;
   padding-bottom: 46.68px;
   font-size: 16px;
-  line-height: 1.1875;
   font-weight: 500;
+  line-height: 1.1875;
   color: #031D5B;
 }
 .partners__wrapper {
@@ -783,6 +791,7 @@ hr {
   text-align: center;
   color: #5B6C94;
   font-size: 16px;
+  font-weight: 400;
   line-height: 2;
   padding-bottom: 114px;
   padding-top: 100px;

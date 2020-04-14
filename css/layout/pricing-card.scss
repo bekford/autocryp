@@ -8,21 +8,17 @@
     padding-top: 56px;
 
     &__plan {
-        font-size: 24px;
-        font-weight: 500;
+        @include text-settings(24px, 500, 1.33);
         letter-spacing: 2px; 
-        line-height: 1.33;
         padding-bottom: 31px;
         color: $pricing-card-plan-color;
     }
     &__title {
-        display: flex;
+        @include flex-space-between;
         flex-direction: column;
-        justify-content: space-between;
     }
     &__tarif {
-        display: flex;
-        justify-content: space-between;
+        @include flex-space-between;
     }
     &__cost {
         color: $pricing-card-cost-color;
@@ -39,8 +35,7 @@
         align-items: center;
         color: $pricing-card-list-color;
         letter-spacing: 0.1px;
-        font-size: 16px;
-        line-height: 1.75; 
+        @include text-settings($line-height: 1.75);
         max-width: 50%;
         padding-top: 60px;
         padding-bottom: 60px;

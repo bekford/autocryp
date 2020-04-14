@@ -7,9 +7,7 @@
   &__cross-platform {
     text-align: center;
     padding-bottom: 46.68px;
-    font-size: 16px;
-    line-height: 1.1875;
-    font-weight: 500;
+    @include text-settings($font-weight: 500, $line-height: 1.1875);
     color: $partners-title-color;
 
   }

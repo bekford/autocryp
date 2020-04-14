@@ -27,16 +27,13 @@
     &__item-heading {
         color: $benefits-item-heading-color;
         padding-top: 26px;
-        font-weight: 500;
-        font-size: 18px;
-        line-height: 1.166;
+        @include text-settings($font-h3, 500, 1.166);
     }
 
     &__item-description {
         width: 300px;
         color: $benefits-item-description-color;
-        font-size: 16px;
-        line-height: 2;
+        @include text-settings($line-height: 2);
     }
 
     &__item-image+img {

@@ -3,8 +3,7 @@
     color: $hero-section-text-color;
 
     &__wrapper {
-        display: flex;
-        justify-content: space-between;
+        @include flex-space-between;
     }
 
     &__text {
@@ -12,19 +11,14 @@
     }
 
     &__text-title {
-        font-style: normal;
-        font-weight: 500;
-        font-size: 48px;
-        line-height: 1.1875;
+        @include text-settings($font-h1, 500, 1.1875);
         max-width: 500px; // это много? или заменить на vw?
         padding-bottom: 40px; //поменял на паддинг
     }
 
     &__text-description {
         max-width: 553px; // тот же вопрос
-        font-style: normal;
-        font-size: 16px;
-        line-height: 2;
+        @include text-settings($line-height: 2);
         padding-bottom: 35px; 
     }
 

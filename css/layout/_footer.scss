@@ -2,8 +2,7 @@
     flex: 0 0 auto;
     text-align: center;
     color: $footer-text-color;
-    font-size: 16px;
-    line-height: 2;
+    @include text-settings($line-height: 2);
     padding-bottom: 114px;
     padding-top: 100px;
     &__text {
