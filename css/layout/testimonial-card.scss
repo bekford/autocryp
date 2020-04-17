@@ -11,6 +11,19 @@
         box-shadow 0.3s,
         color 0.3s;
 
+   /* &__little-quotes {
+        display: block;
+        width: 40px;
+        height: 40px;
+        fill: #1FDB84;  
+    }*/
+    &__little-quotes {
+        width: 49px;
+        height: 40px;
+        background-color: $mountain-meadow; 
+        display: block;
+        mask-image: url('/image/quotes_little.svg');
+    }
     &__content {
         display: flex;
         flex-direction: column;
@@ -62,16 +75,15 @@
     .slick-current &__singature-author {
         color: $testimonial-active-card-color;
     }
+    .slick-current &__little-quotes {
+        background-color: $white;
+    }
 }
 
 .card-wrapper {
     display: flex;
     justify-content: flex-start;
     margin-left: -23vw;
-}
-
-.green-qoutes {
-    color: $testimonial-active-card-quotes-color;
 }
 
 @media (max-width: 900px) {

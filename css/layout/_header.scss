@@ -49,6 +49,55 @@
         @include text-settings($font-weight: 500, $line-height: 2);
         margin-left: 38.5px;
     }
+    &__dropdown {
+        display: none;
+    }
+    @media (max-width: 900px) {
+        &__wrapper {
+            display: none;
+        }
+        &__company {
+           position: absolute;
+           top: 50%;
+           left: 50%;
+           margin-right: -50%;
+           transform: translate(-50%, -50%)
+        }
+        &__dropdown {
+            display: flex;
+            justify-content: space-between;
+        }
+        &__dropdown-child {
+            display: none;
+        }
+        &__menubutton {
+            margin-left: 25px;
+            @include text-settings($font-weight: 500, $line-height: 2);
+        }
+        &__dropdown:hover {
+            display: inline-block;
+            position: relative;
+        }
+        &__dropdown:hover &__dropdown-child {
+            display: flex;
+            flex-direction: column;
+        }
+        &__dropdown:hover &__company {
+            display: none;
+        }
+        &__nav-link {
+            padding-left: 35px;
+            padding-top: 20px;
+            margin-left: 0;
+        }
+        &__nav-link:first-child {
+            margin-left: 0;
+        }
+        &__left-login {
+            padding: 20px 0 20px 35px;
+        }
+        
+    }
 }
 
 
